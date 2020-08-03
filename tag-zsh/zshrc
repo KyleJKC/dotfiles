@@ -108,6 +108,7 @@ alias mp='mkdir -p'
 alias ra='ranger'
 alias rm -rf='rm -i'
 alias lg='lazygit'
+alias pacupdate='~/.local/bin/pacupdate'
 fortune|cowsay|lolcat
 
 
@@ -115,3 +116,4 @@ fortune|cowsay|lolcat
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+[ -f "${GHCUP_INSTALL_BASE_PREFIX:=$HOME}/.ghcup/env" ] && source "${GHCUP_INSTALL_BASE_PREFIX:=$HOME}/.ghcup/env"
