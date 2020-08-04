@@ -109,6 +109,7 @@ alias ra='ranger'
 alias rm -rf='rm -i'
 alias lg='lazygit'
 alias pacupdate='~/.local/bin/pacupdate'
+alias clean='sudo pacman -R $(pacman -Qdtq)'
 fortune|cowsay|lolcat
 
 
