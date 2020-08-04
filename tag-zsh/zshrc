@@ -32,7 +32,7 @@ source ~/.config/zsh/completion.zsh
 export GTK_IM_MODULE=ibus
 export XMODIFIERS=@im=ibus
 export QT_IM_MODULE=ibus
-
+#
 # The Fuck
 eval $(thefuck --alias)
 eval $(thefuck --alias FUCK)
