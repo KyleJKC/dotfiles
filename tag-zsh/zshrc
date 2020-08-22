@@ -69,6 +69,7 @@ alias ll='ls -lh'
 alias la='ll -a'
 alias lr='la -R'
 alias vi='vim'
+alias l='ls -a'
 alias javac="javac -J-Dfile.encoding=utf8"
 alias grep="grep --color=auto"
 alias -s html=nvim

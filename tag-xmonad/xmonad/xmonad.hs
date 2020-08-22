@@ -108,7 +108,7 @@ main = do
 ---AUTOSTART
 ------------------------------------------------------------------------
 myStartupHook = do
-          spawnOnce "feh --bg-fill ~/Pictures/bg.jpg &"
+          spawnOnce "~/.xmonad/scripts/wp-autochange.sh"
           spawnOnce "picom &"
           spawnOnce "nm-applet &"
           spawnOnce "trayer --edge top --align right --widthtype request --padding 6 --SetDockType true --SetPartialStrut true --expand true --monitor 1 --transparent true --alpha 0 --tint 0x292d3e --height 22 &"
@@ -281,7 +281,7 @@ myWorkspaces = clickable . (map xmobarEscape)
 -- LAYOUTS
 ------------------------------------------------------------------------
 myLayoutHook = avoidStruts $ mouseResize $ windowArrange $ T.toggleLayouts floats
-             $ spacingRaw False (Border 8 8 8 8) True (Border 8 8 8 8) True $
+             $ spacingRaw False (Border 8 5 8 8) True (Border 8 5 8 8) True $
              mkToggle (NBFULL ?? NOBORDERS ?? EOT) $ myDefaultLayout
              where 
                  myDefaultLayout = tall ||| grid ||| threeCol ||| threeRow ||| oneBig ||| noBorders monocle ||| space ||| floats
