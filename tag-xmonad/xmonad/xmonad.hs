@@ -108,10 +108,11 @@ main = do
 ---AUTOSTART
 ------------------------------------------------------------------------
 myStartupHook = do
-          spawnOnce "~/.xmonad/scripts/wp-autochange.sh"
+          -- spawnOnce "~/.xmonad/scripts/wp-autochange.sh"
+          spawnOnce "feh --bg-fill ~/Pictures/桌面图片/Lake.jpg"
           spawnOnce "picom &"
           spawnOnce "nm-applet &"
-          spawnOnce "trayer --edge top --align right --widthtype request --padding 6 --SetDockType true --SetPartialStrut true --expand true --monitor 1 --transparent true --alpha 0 --tint 0x292d3e --height 22 &"
+          -- spawnOnce "trayer --edge top --align right --widthtype request --padding 6 --SetDockType true --SetPartialStrut true --expand true --monitor 1 --transparent true --alpha 0 --tint 0x292d3e --height 22 &"
           spawnOnce "fcitx &"
 
 ------------------------------------------------------------------------
