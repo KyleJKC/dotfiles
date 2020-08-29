@@ -6,10 +6,3 @@ xmonad.hs:141:18: warning: [-Wdeprecations]
     |
 141 |     where conf = defaultGSConfig
     |                  ^^^^^^^^^^^^^^^
-
-xmonad.hs:246:1: warning: [-Wtabs]
-    Tab character found here, and in one further location.
-    Please use spaces instead.
-    |
-246 |                 
-    | ^^^^^^^^
