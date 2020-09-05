@@ -70,7 +70,7 @@ myFont          = "xft:Inter:regular:pixelsize=12"
 myModMask       = mod4Mask  -- Sets modkey to super/windows key
 myTerminal      = "st"      -- Sets default terminal
 myTextEditor    = "nvim"     -- Sets default text editor
-myBorderWidth   = 2         -- Sets border width for windows
+myBorderWidth   = 0         -- Sets border width for windows
 windowCount     = gets $ Just . show . length . W.integrate' . W.stack . W.workspace . W.current . windowset
 
 ------------------------------------------------------------------------
