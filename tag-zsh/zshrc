@@ -85,8 +85,8 @@ alias pip3sp="sudo -H pip3 --proxy localhost:1081"
 alias pip3p="pip3 --proxy localhost:1081"
 alias aptp="sudo apt -c ~/.apt.conf"
 
-alias hp='export http_proxy="localhost:58591"
-export https_proxy="localhost:58591"
+alias hp='export http_proxy="localhost:8889"
+export https_proxy="localhost:8889"
 echo "http_proxy:"$http_proxy "https_proxy:"$https_proxy'
 # alias hpw='export http_proxy="coreja.com:1082"
 # export https_proxy="coreja.com:1082"

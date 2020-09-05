@@ -102,25 +102,25 @@ scrolling:
 font:
   # The normal (roman) font face to use.
   normal:
-    family: SauceCodePro Nerd Font Mono
+    family: CaskaydiaCove Nerd Font Mono
     # Style can be specified to pick a specific face.
     # style: Regular
 
   # The bold font face
   bold:
-    family: SauceCodePro Nerd Font Mono
+    family: CaskaydiaCove Nerd Font Mono
     # Style can be specified to pick a specific face.
     # style: Bold
 
   # The italic font face
   italic:
-    family: SauceCodePro Nerd Font Mono
+    family: CaskaydiaCove Nerd Font Mono
     # Style can be specified to pick a specific face.
     # style: Italic
 
 
   # Point size
-  size: 13.5
+  size: 15.5
 
   # Offset is the extra space around each character. `offset.y` can be thought of
   # as modifying the line spacing, and `offset.x` as modifying the letter spacing.
@@ -149,7 +149,7 @@ font:
   #
   # This is a global setting and will require a log out or restart to take
   # effect.
-  use_thin_strokes: true
+  # use_thin_strokes: true
 
 # If `true`, bold text is drawn using the bright color variants.
 draw_bold_text_with_bright_colors: true

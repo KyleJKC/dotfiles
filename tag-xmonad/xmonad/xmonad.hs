@@ -68,9 +68,9 @@ import XMonad.Prompt (defaultXPConfig, XPConfig(..), XPPosition(Top), Direction1
 ------------------------------------------------------------------------
 myFont          = "xft:Inter:regular:pixelsize=12"
 myModMask       = mod4Mask  -- Sets modkey to super/windows key
-myTerminal      = "alacritty"      -- Sets default terminal
+myTerminal      = "st"      -- Sets default terminal
 myTextEditor    = "nvim"     -- Sets default text editor
-myBorderWidth   = 0         -- Sets border width for windows
+myBorderWidth   = 2         -- Sets border width for windows
 windowCount     = gets $ Just . show . length . W.integrate' . W.stack . W.workspace . W.current . windowset
 
 ------------------------------------------------------------------------
@@ -101,7 +101,7 @@ main = do
         , workspaces         = myWorkspaces
         , borderWidth        = myBorderWidth
         , normalBorderColor  = "#292d3e"
-        , focusedBorderColor = "#bbc5ff"
+        , focusedBorderColor = "#1d82e7"
         } `additionalKeysP`         myKeys 
 
 ------------------------------------------------------------------------
