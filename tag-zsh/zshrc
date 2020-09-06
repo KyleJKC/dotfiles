@@ -17,6 +17,9 @@ export EDITOR='nvim'
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 ZSH_THEME="powerlevel10k/powerlevel10k"
 
+#Ranger
+export RANGER_LOAD_DEFAULT_RC=FALSE
+
 # FZF
 # source ~/.config/zsh/fzf.zsh
 export FZF_DEFAULT_OPTS='--bind ctrl-e:down,ctrl-u:up --preview "[[ $(file --mime {}) =~ binary ]] && echo {} is a binary file || (ccat --color=always {} || highlight -O ansi -l {} || cat {}) 2> /dev/null | head -500"'
