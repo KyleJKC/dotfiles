@@ -10339,3 +10339,10 @@ nvim
 : 1599471691:0;ls
 : 1599471707:0;lsrc
 : 1599471711:0;lg
+: 1599487232:0;zinit module build
+: 1599487313:0;time zsh -i -c exit
+: 1599487319:0;cd .dotfiles/tag-zsh
+: 1599487337:0;mkrc -t zsh .zshrc .p10k.zsh .zsh_history
+: 1599487338:0;ls
+: 1599487342:0;cd .dotfiles
+: 1599487343:0;lg
