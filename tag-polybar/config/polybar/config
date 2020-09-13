@@ -35,9 +35,9 @@ padding-right = 2
 module-margin-left = 0
 module-margin-right = 1
  
-font-0 = UbuntuMono Nerd Font:pixelsize=14:style=Medium Condensed;5
-font-1 = Material Design Icons Desktop:pixelsize=20;5
-font-2 = UbuntuMono Nerd Font:pixelsize=20:style=Medium Condensed;7
+font-0 = 微软雅黑:pixelsize=14:style=Medium Condensed;5
+font-1 = 微软雅黑:pixelsize=20;5
+font-2 = 微软雅黑:pixelsize=20:style=Medium Condensed;7
  
 modules-center = xbacklight pulseaudio
 
@@ -65,9 +65,9 @@ padding-right = 0
 module-margin-left = 2
 module-margin-right = 2
  
-font-0 = BreezeSans:pixelsize=14:style=Medium Condensed;4
-font-1 = Material Design Icons Desktop:pixelsize=20;5
-font-2 = BreezeSans:pixelsize=10:style=Bold Condensed;3
+font-0 = 微软雅黑:style=Medium Condensed;4
+font-1 = 微软雅黑:pixelsize=20;5
+font-2 = 微软雅黑:style=Bold Condensed;3
  
 modules-center = search screenshot file-man 
 

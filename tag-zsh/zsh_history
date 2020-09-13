@@ -10346,3 +10346,666 @@ nvim
 : 1599487338:0;ls
 : 1599487342:0;cd .dotfiles
 : 1599487343:0;lg
+: 1599487407:0;time zsh -i -c exit
+: 1599487619:0;ls
+: 1599487628:0;s
+: 1599645561:0;zinit module build
+: 1599645597:0;vim 
+: 1599645601:0;vim .zshrc
+: 1599645638:0;zpmod
+: 1599645648:0;vim
+: 1599645672:0;\time zsh -i -c exit
+: 1599645678:0;zpmod -h
+: 1599645716:0;ls/home/kyle/.zinit/bin/zmodules/Src/
+: 1599645720:0;ls /home/kyle/.zinit/bin/zmodules/Src/
+: 1599645824:0;vim .zshrc
+: 1599651239:0;\time zsh -i -c exit
+: 1599651303:0;zpmod source-study
+: 1599651312:0;c
+: 1599651314:0;vim .zshrc
+: 1599651333:0;zinit module build
+: 1599651377:0;vim .zshrc
+: 1599651387:0;ls
+: 1599651390:0;\time zsh -i -c exit
+: 1599651404:0;s
+: 1599653933:0;c
+: 1599653934:0;s
+: 1599653934:0;c
+: 1599653935:0;s
+: 1599653935:0;c
+: 1599653935:0;s
+: 1599653937:0;c
+: 1599653937:0;s
+: 1599653938:0;ls
+: 1599653939:0;vim
+: 1599653940:0;c
+: 1599653942:0;time zsh -i -c exit
+: 1599654006:0;c
+: 1599654010:0;/usr/bin/time /bin/zsh -i -c exit
+: 1599654053:0;for i in $(seq 1 5); do /usr/bin/time /bin/zsh -i -c exit; done
+: 1599655734:0;cd .config
+: 1599655735:0;ls
+: 1599655739:0;cd xmobar
+: 1599655741:0;vim xmobarrc
+: 1599655821:0;c
+: 1599655822:0;cd
+: 1599655823:0;ls
+: 1599655826:0;cd .xmonad
+: 1599655855:0;cd
+: 1599655856:0;c
+: 1599655858:0;cd .xmonad
+: 1599655875:0;vim xmonad.hs
+: 1599655903:0;cd .xmonad
+: 1599655906:0;vim xmonad.errors
+: 1599656018:0;ls
+: 1599656029:0;cd .xmonad
+: 1599656033:0;cd 
+: 1599656037:0;cd .config/xmobar
+: 1599656038:0;ls
+: 1599656039:0;vim xmobarrc
+: 1599656266:0;pfetch
+: 1599656274:0;vim .zshrc
+: 1599656287:0;s
+: 1599656343:0;\time zsh -i -c exit
+: 1599656350:0;zinit module build
+: 1599656368:0;\time zsh -i -c exit
+: 1599656376:0;neofetch
+: 1599656381:0;pfetch
+: 1599656395:0;sudo pacman -Sy onefetch
+: 1599656405:0;onefetch
+: 1599656456:0;sudo pacman -Rsn onefetch
+: 1599656458:0;c
+: 1599656461:0;clean
+: 1599656488:0;sudo pacman -Rs($pacman-qdtq)
+: 1599656494:0;sudo pacman -Rs($pacman-Qdtq)
+: 1599656502:0;sudo pacman -Rs($pacman -Qdtq)
+: 1599656507:0;pacman -Qdtq
+: 1599656588:0;pfetch
+: 1599656593:0;\time zsh -i -c exit
+: 1599656597:0;c
+: 1599658891:0;zpmod source-study
+: 1599658915:0;vim .zshrc
+: 1599658950:0;\time zsh -i -c exit
+: 1599658953:0;j nvim
+: 1599658959:0;\time zsh -i -c exit
+: 1599658998:0;zpmod source-study
+: 1599659007:0;\time zsh -i -c exit
+: 1599659040:0;zpmod source-study
+: 1599659097:0;\time zsh -i -c exit
+: 1599659106:0;zpmod source-study
+: 1599659118:0;pacman -Syyu
+: 1599659120:0;sudo pacman -Syyu
+: 1599659135:0;man ls
+: 1599659138:0;ls
+: 1599659140:0;exa
+: 1599659148:0;ls
+: 1599659168:0;fzf
+: 1599659187:0;zinit module build
+: 1599659206:0;\time zsh -i -c exit
+: 1599659362:0;s
+: 1599659376:0;vim 
+: 1599659381:0;vim .
+: 1599659386:0;vim .zshrc
+: 1599659396:0;zinit module build
+: 1599659413:0;s
+: 1599659422:0;\time zsh -i -c exit
+: 1599659440:0;s
+: 1599659485:0;vim 
+: 1599659489:0;vim .zshrc
+: 1599659509:0;c
+: 1599659513:0;\time zsh -i -c exit
+: 1599659527:0;zinit module build
+: 1599659553:0;\time zsh -i -c exit
+: 1599744870:0;s
+: 1599744873:0;\time zsh -i -c exit
+: 1599811428:0;c
+: 1599811428:0;s
+: 1599811432:0;\time zsh -i -c exit
+: 1599858992:0;vim
+: 1599830206:0;hp
+: 1599830208:0;vim
+: 1599830389:0;\time zsh -i -c exit
+: 1599830396:0;vim .zshrc
+: 1599830406:0;zinit module build
+: 1599830426:0;\time zsh -i -c exit
+: 1599909530:0;s
+: 1599909537:0;fortu
+: 1599909543:0;fortune|cowsay|lolcat
+: 1599909554:0;fortune|lolcat
+: 1599909578:0;fortune
+: 1599909628:0;vim 
+: 1599909632:0;vim .zshrc
+: 1599909678:0;cd .xmonad
+: 1599909683:0;vim xmonad.hs
+: 1599909715:0;ls
+: 1599909721:0;c
+: 1599909723:0;zinit module build
+: 1599909758:0;vim .zshrc
+: 1599909788:0;zinit module build
+: 1599909809:0;vim
+: 1599909810:0;c
+: 1599909812:0;\time zsh -i -c exit
+: 1599977180:0;ls
+: 1599977185:0;cd .config/xmobar
+: 1599977185:0;ls
+: 1599977188:0;vim xmobarrc
+: 1599977298:0;sudo pacman -Sy dezn2
+: 1599977304:0;sudo pacman -Sy dezn
+: 1599977319:0;sudo pacman -Sy dzen2
+: 1599978976:0;dzen2
+: 1599978992:0;killall x
+: 1599978998:0;killall xmobar
+: 1599979004:0;dzen2 &
+: 1599979014:0;killall dzen2
+: 1599979028:0;kill pid12407
+: 1599979031:0;kill pid 12407
+: 1599979035:0;kill 12407
+: 1599979077:0;ls
+: 1599979080:0;cd .config/xmobar
+: 1599979081:0;vim xmobarrc
+: 1599979128:0;cd .xmonad
+: 1599979131:0;vim xmonad.hs
+: 1599979211:0;cd .xmonad
+: 1599979212:0;vim xmonad.hs
+: 1599979230:0;cd .config/xmobar
+: 1599979233:0;vim xmobarrc
+: 1599979429:0;cd $HOME
+: 1599979436:0;git clone https://github.com/adi1090x/polybar-themes
+: 1599979441:0;rm -rf polybar-themes
+: 1599979453:0;fgit-go clone https://github.com/adi1090x/polybar-themes
+: 1599979499:0;cd polybar-themes/polybar-1
+: 1599979504:0;cp -r fonts/* ~/.local/share/fonts
+: 1599979508:0;fc-cache -v
+: 1599979515:0;sudo rm /etc/fonts/conf.d/70-no-bitmaps.conf
+: 1599979531:0;cp -r * ~/.config/polybar
+: 1599979537:0;~/.config/polybar/launch.sh
+: 1599979593:0;c
+: 1599979607:0;cd .xmonad
+: 1599979611:0;vim xmonad.hs
+: 1599979958:0;c
+: 1599979961:0;cd .xmonad
+: 1599979962:0;vim xmonad.hs
+: 1599980005:0;cd .xmonad
+: 1599980008:0;vim xmonad.hs
+: 1599980033:0;ls
+: 1599980038:0;cd .config/rofi
+: 1599980039:0;ls
+: 1599980044:0;cd themes
+: 1599980045:0;ls
+: 1599980052:0;cd
+: 1599980055:0;cd .config/rofi
+: 1599980056:0;vim config
+: 1599980103:0;cd .config/rofi
+: 1599980105:0;vim config
+: 1599980247:0;cd .config/polybar
+: 1599980248:0;c
+: 1599980260:0;cd ..
+: 1599980263:0;cd polybar
+: 1599980264:0;ls
+: 1599980286:0;vim fonts
+: 1599980294:0;vim config
+: 1599980366:0;killall polybar
+: 1599980372:0;~/.config/polybar/launch.sh &
+: 1599980415:0;cd .config/polybar
+: 1599980415:0;ls
+: 1599980422:0;vim colors.ini
+: 1599980435:0;vim config
+: 1599980938:0;sudo pacman -Sy mpd
+: 1599981037:0;sudo pacman -Sy mpc
+: 1599981157:0;c
+: 1599981169:0;cd polybar-themes/polybar-13
+: 1599981175:0;cp -r fonts/* ~/.local/share/fonts
+: 1599981179:0;fc-cache -v
+: 1599981188:0;sudo rm /etc/fonts/conf.d/70-no-bitmaps.conf
+: 1599981193:0;cp -r * ~/.config/polybar
+: 1599981213:0;rm -rf ~/.config/polybar
+: 1599981215:0;cp -r * ~/.config/polybar
+: 1599981230:0;mkdir ~/.config/polybar'
+: 1599981232:0;mkdir ~/.config/polybar
+: 1599981233:0;cp -r * ~/.config/polybar
+: 1599981236:0;killall polybar
+: 1599981242:0;~/.config/polybar/launch.sh &
+: 1599981270:0;killall polybar
+: 1599981274:0;cd .config/polybar
+: 1599981275:0;ls
+: 1599981286:0;vim launch.sh
+: 1599981345:0;~/.config/polybar/launch.sh &
+: 1599981354:0;killall polybar
+: 1599981362:0;~/.config/polybar/launch.sh &
+: 1599981379:0;ki
+: 1599981383:0;killall polybar
+: 1599981385:0;~/.config/polybar/launch.sh &
+: 1599981397:0;killall polybar
+: 1599981479:0;rm -rf ~/.config/polybar
+: 1599981481:0;mkdir ~/.config/polybar
+: 1599981484:0;htop
+: 1599981524:0;c
+: 1599981524:0;s
+: 1599981530:0;c
+: 1599981530:0;s
+: 1599981533:0;c
+: 1599981534:0;s
+: 1599981541:0;c
+: 1599981541:0;s
+: 1599981935:0;cd .xmonad
+: 1599981939:0;vim xmonad.hs
+: 1599982010:0;cd .config/xmobar
+: 1599982013:0;vim xmobarrc
+: 1599982109:0;cd .xmonad
+: 1599982113:0;vim xmonad.hs
+: 1599982153:0;s
+: 1599982213:0;fgit-go clone https://github.com/Sam1431/Enigma-V-2.0/tree/master/enigma
+: 1599982227:0;fgit-go clone https://github.com/Sam1431/Enigma-V-2.0/tree/master/enigma.git
+: 1599982230:0;hp
+: 1599982237:0;git clone https://github.com/Sam1431/Enigma-V-2.0/tree/master/enigma.git
+: 1599982271:0;rm -rf eni
+: 1599982279:0;s
+: 1599982300:0;fgit-go clone https://github.com/Sam1431/Enigma-V-2.0
+: 1599982359:0;cd Enigma-V-2.0
+: 1599982360:0;ls
+: 1599982363:0;cd enigma
+: 1599982364:0;ls
+: 1599982372:0;mpv DASH_720.mp4
+: 1599982378:0;c
+: 1599982380:0;ra
+: 1599982409:0;ls
+: 1599982410:0;cd ..
+: 1599982413:0;rm -rf enigma
+: 1599982416:0;cd 
+: 1599982421:0;rm -rf Enigma-V-2.0
+: 1599982451:0;git clone https://github.com/Sam1431/Enigma-V-2.0
+: 1599982453:0;hp
+: 1599982454:0;git clone https://github.com/Sam1431/Enigma-V-2.0
+: 1599982531:0;fgit-go clone https://github.com/Sam1431/Enigma-V-2.0.git
+: 1599982581:0;ra
+: 1599982590:0;rm -rf Enigma-V-2.0
+: 1599982598:0;git clone https://github.com/Sam1431/Enigma-V-2.0.git
+: 1599982600:0;hp
+: 1599982601:0;git clone https://github.com/Sam1431/Enigma-V-2.0.git
+: 1599982814:0;rm -rf Enigma-V-2.0
+: 1599983183:0;xprop -root _NET_DESKTOP_NAMES
+: 1599983231:0;c
+: 1599983232:0;xprop -root _NET_DESKTOP_NAMES
+: 1599983245:0;c
+: 1599983249:0;cd .xmonad
+: 1599983250:0;vim xmonad.hs
+: 1599983341:0;xprop -root _NET_DESKTOP_NAMES
+: 1599983343:0;s
+: 1599983348:0;c
+: 1599983349:0;xprop -root _NET_DESKTOP_NAMES
+: 1599983350:0;s
+: 1599983359:0;xprop -root _NET_DESKTOP_NAMES
+: 1599983395:0;c
+: 1599983402:0;git clone https://github.com/Sam1431/Enigma-V-2.0.git
+: 1599983404:0;hp
+: 1599983405:0;git clone https://github.com/Sam1431/Enigma-V-2.0.git
+: 1599983425:0;fgit-go clone https://github.com/Sam1431/Enigma-V-2.0.git
+: 1599983609:0;cd Enigma-V-2.0
+: 1599983610:0;ls
+: 1599983613:0;cd enigma
+: 1599983614:0;ls
+: 1599983624:0;d
+: 1599983631:0;cd
+: 1599983640:0;cd Enigma-V-2.0/enigma/config
+: 1599983767:0;fgit-go clone https://github.com/SwiftyChicken/dotfiles.git
+: 1599983918:0;cd .xmonad
+: 1599983919:0;vim xmonad.hs
+: 1599983926:0;c
+: 1599983927:0;ls
+: 1599983934:0;cd dotfiles
+: 1599983935:0;ls
+: 1599983947:0;c
+: 1599983948:0;cd
+: 1599983953:0;rm -rf dotfiles
+: 1599983954:0;c
+: 1599983958:0;rm -rf Enigma-V-2.0
+: 1599983992:0;hp
+: 1599984003:0;git clone https://github.com/Sam1431/Enigma-V-2.0.git
+: 1599987067:0;fgit-go clone https://github.com/Sam1431/Enigma-V-2.0.git
+: 1599987079:0;ls
+: 1599987082:0;cd Enigma-V-2.0
+: 1599987083:0;ls
+: 1599987085:0;cd enigma
+: 1599987085:0;ls
+: 1599987088:0;cd
+: 1599987094:0;rm -rf Enigma-V-2.0
+: 1599987095:0;x
+: 1599987096:0;c
+: 1599987101:0;fgit-go clone https://github.com/Sam1431/Enigma-V-2.0.git
+: 1599987115:0;cd Enigma-V-2.0
+: 1599987121:0;vim enigma/
+: 1599987128:0;ls
+: 1599987130:0;cd enigma
+: 1599987130:0;ls
+: 1599987132:0;l
+: 1599987136:0;cd .config
+: 1599987137:0;ls
+: 1599987141:0;cd polybar
+: 1599987146:0;cp -r * ~/.config/polybar
+: 1599987147:0;ls
+: 1599987153:0;cd .config/polybar
+: 1599987154:0;ls
+: 1599987158:0;~/.config/polybar/launch.sh &
+: 1599987188:0;killall polybar
+: 1599987196:0;cd .config/polybar
+: 1599987198:0;vim enigma/
+: 1599987200:0;cd
+: 1599987207:0;cd .xmonad
+: 1599987209:0;vim xmonad.hs
+: 1599987244:0;c
+: 1599987248:0;d
+: 1599987249:0;cd
+: 1599987262:0;j xmobar
+: 1599987263:0;ls
+: 1599987265:0;vim xmobarrc
+: 1599987382:0;c
+: 1599987382:0;cd
+: 1599987385:0;j xmonad
+: 1599987390:0;vim
+: 1599987508:0;killall polybar
+: 1599987515:0;cd .xmonad
+: 1599987521:0;vim xmonad.errors
+: 1599987526:0;cd .xmonad
+: 1599987529:0;vim xmonad.hs
+: 1599987589:0;killall xmobar
+: 1599987600:0;ls
+: 1599987708:0;cd .config/polybar
+: 1599987708:0;ls
+: 1599987711:0;vim config
+: 1599987716:0;r
+: 1599987716:0;vim config
+: 1599987720:0;ra
+: 1599987739:0;killall polybar
+: 1599987743:0;xmobar &
+: 1599987766:0;ls
+: 1599987776:0;cd .xmonad
+: 1599987776:0;ls
+: 1599987781:0;vim xmonad.hs
+: 1599987800:0;vim xmonad.errors
+: 1599987805:0;vim xmonad.hs
+: 1599988015:0;sudo pacman -Sy TaffyBar
+: 1599988024:0;killall xmobar
+: 1599988056:0;yay -S xmobar
+: 1599988064:0;yay -S taffybar
+: 1599988098:0;killall xmobar
+: 1599988328:0;brew install taffybar
+: 1599988349:0;c
+: 1599988354:0;sudo pacman -Sy cabel
+: 1599988360:0;sudo pacman -Sy cabal
+: 1599988373:0;cabal
+: 1599988492:0;killall polybar
+: 1599988497:0;c
+: 1599988499:0;ls
+: 1599988503:0;cd .config/polybar
+: 1599988504:0;ls
+: 1599988507:0;vim config.ini
+: 1599988540:0;c
+: 1599988545:0;cd .xmonad
+: 1599988546:0;ls
+: 1599988550:0;vim xmonad.hs
+: 1599988959:0;cd .xmonad
+: 1599988961:0;vim xmonad.errors
+: 1599988985:0;cd .xmonad
+: 1599988987:0;vim xmonad.errors
+: 1599989027:0;cd .xmonad
+: 1599989028:0;vim xmonad.errors
+: 1599989042:0;cd .xmonad
+: 1599989043:0;vim xmonad.errors
+: 1599989059:0;cd .xmonad
+: 1599989060:0;vim xmonad.errors
+: 1599989117:0;ls
+: 1599989166:0;mv xmonad.hs xmonad.hs.bak
+: 1599989175:0;rm -rf xmonad.hs.bak
+: 1599989178:0;mv xmonad.hs xmonad.hs.bak
+: 1599989184:0;vim xmonad.hs
+: 1599989195:0;cd
+: 1599989197:0;cd .xmonad
+: 1599989200:0;vim xmonad.errors
+: 1599989230:0;vim xmonad.hs.bak
+: 1599989277:0;vim xmonad.errors
+: 1599989283:0;vim xmonad.hs.bak
+: 1599989355:0;reboot
+: 1600018190:0;ls
+: 1600018191:0;c
+: 1600018195:0;\time zsh -i -c exit
+: 1600018197:0;c
+: 1600018203:0;cd .xmonad
+: 1599989406:0;vim xmonad.hs
+: 1599989492:0;cd .xmonad
+: 1599989493:0;vim xmonad.hs
+: 1599989618:0;ls
+: 1599989634:0;cd .xmonad
+: 1599989636:0;vim xmonad.hs
+: 1599989923:0;logout
+: 1599989933:0;reboot
+: 1599990097:0;ls
+: 1599990098:0;cd .xmonad
+: 1599990100:0;vim xmonad.hs
+: 1599990112:0;ls
+: 1599990114:0;cd .xmonad
+: 1599990116:0;vim xmonad.hs.bak
+: 1599990223:0;quit
+: 1599990537:0;xmonad --restart
+: 1599990809:0;reboot
+: 1599990841:0;cd .xmonad
+: 1599990845:0;vim xmonad.errors
+: 1599990850:0;vim xmonad.hs
+: 1599990889:0;cd .xmonad
+: 1599990891:0;vim xmonad.hs
+: 1599990894:0;vim xmonad.errors
+: 1599990958:0;cd .config/polybar
+: 1599990960:0;cd
+: 1599990961:0;cd .config/polybar
+: 1599990962:0;ls
+: 1599990966:0;cd configs
+: 1599990967:0;ls
+: 1599990970:0;cd ..
+: 1599990973:0;vim config.ini
+: 1599990981:0;s
+: 1599991104:0;killall polybar
+: 1599991107:0;~/.config/polybar/launch.sh &
+: 1599991143:0;killall polybar
+: 1599991146:0;~/.config/polybar/launch.sh &
+: 1599991169:0;killall polybar
+: 1599991172:0;~/.config/polybar/launch.sh &
+: 1599991181:0;killall polybar
+: 1599991182:0;~/.config/polybar/launch.sh &
+: 1599991208:0;killall polybar
+: 1599991209:0;~/.config/polybar/launch.sh &
+: 1599991223:0;killall polybar
+: 1599991224:0;~/.config/polybar/launch.sh &
+: 1599991246:0;killall polybar
+: 1599991246:0;~/.config/polybar/launch.sh &
+: 1599991305:0;killall polybar
+: 1599991306:0;~/.config/polybar/launch.sh &
+: 1599991326:0;killall polybar
+: 1599991327:0;~/.config/polybar/launch.sh &
+: 1599991345:0;j poly
+: 1599991346:0;vim config.ini
+: 1599991352:0;j poly
+: 1599991355:0;killall polybar
+: 1599991357:0;~/.config/polybar/launch.sh &
+: 1599991373:0;killall polybar
+: 1599991374:0;~/.config/polybar/launch.sh &
+: 1599991405:0;killall polybar
+: 1599991406:0;~/.config/polybar/launch.sh &
+: 1599991441:0;ifconfig
+: 1599991469:0;c
+: 1599991471:0;killall polybar
+: 1599991473:0;~/.config/polybar/launch.sh &
+: 1599991524:0;cd .config/xmobar
+: 1599991525:0;ls
+: 1599991528:0;vim xmobarrc
+: 1599991608:0;killall polybar
+: 1599991609:0;~/.config/polybar/launch.sh &
+: 1599991675:0;killall polybar
+: 1599991676:0;~/.config/polybar/launch.sh &
+: 1599991693:0;killall polybar
+: 1599991695:0;~/.config/polybar/launch.sh &
+: 1599991712:0;killall polybar
+: 1599991712:0;~/.config/polybar/launch.sh &
+: 1599991762:0;killall polybar
+: 1599991762:0;~/.config/polybar/launch.sh &
+: 1599991809:0;killall polybar
+: 1599991810:0;~/.config/polybar/launch.sh &
+: 1599991888:0;killall polybar
+: 1599991889:0;~/.config/polybar/launch.sh &
+: 1599991927:0;killall polybar
+: 1599991928:0;~/.config/polybar/launch.sh &
+: 1599991955:0;killall polybar
+: 1599991956:0;~/.config/polybar/launch.sh &
+: 1599991987:0;killall polybar
+: 1599991988:0;~/.config/polybar/launch.sh &
+: 1599992008:0;killall polybar
+: 1599992008:0;~/.config/polybar/launch.sh &
+: 1599992029:0;killall polybar
+: 1599992030:0;~/.config/polybar/launch.sh &
+: 1599992082:0;killall polybar
+: 1599992083:0;~/.config/polybar/launch.sh &
+: 1599992094:0;ls
+: 1599992103:0;cd .config/xmobar
+: 1599992108:0;xmonad --restart
+: 1599992123:0;s
+: 1599992147:0;reboot
+: 1599993290:0;cd .config/xmobar
+: 1599993291:0;ls
+: 1599993292:0;\time zsh -i -c exit
+: 1599993294:0;ls
+: 1599993295:0;c
+: 1599993295:0;ls
+: 1599993297:0;vim xmobarrc
+: 1599993299:0;cd
+: 1599993307:0;cd .xmonad
+: 1599993309:0;ls
+: 1599993318:0;vim xmonad.hs
+: 1599993348:0;ls
+: 1599993354:0;vim xmonad.errors
+: 1599993357:0;ls
+: 1599993358:0;vim xmonad.hs
+: 1599993455:0;c
+: 1599993456:0;ls
+: 1599993477:0;cp scripts ~/scripts
+: 1599993481:0;cp -r scripts ~/scripts
+: 1599993498:0;cp xmonad.hs ~/xmonad.hs
+: 1599993501:0;cd
+: 1599993502:0;ls
+: 1599993509:0;mv .xmonad .xmonad.bak
+: 1599993515:0;cd .xmonad
+: 1599993530:0;sudo pacman -Sy xterm
+: 1599993558:0;picom &
+: 1599993563:0;feh --recursive --randomize --bg-fill ~/Pictures/ÊÉÅÉ¨ÈÉΩÉÇÂÉªæÁÉ©Éß/
+: 1599993570:0;picom &
+: 1599993594:0;rofi -show drun
+: 1599993612:0;ls
+: 1599993614:0;cd .xmonad
+: 1599993615:0;ls
+: 1599993623:0;picom &
+: 1599993627:0;feh --recursive --randomize --bg-fill ~/Pictures/ÊÉÅÉ¨ÈÉΩÉÇÂÉªæÁÉ©Éß/
+: 1599993631:0;~/.config/polybar/launch.sh &
+: 1599993650:0;ls
+: 1599993654:0;cd .xmonad0
+: 1599993655:0;cd .xmonad
+: 1599993656:0;ls
+: 1599993657:0;cd
+: 1599993671:0;mv xmonad.hs .xmonad/xmonad.hs
+: 1599993681:0;mv scripts .xmonad/scripts
+: 1599993704:0;ls
+: 1599993705:0;cd .xmonad
+: 1599993706:0;ls
+: 1599993712:0;vim xmonad.errors
+: 1599993728:0;vim xmonad.hs
+: 1599993763:0;ls
+: 1599993765:0;cd .xmonad
+: 1599993768:0;vim xmonad.hs\
+: 1599993768:0;vim xmonad.hs
+: 1599993874:0;reboot
+: 1599994004:0;cd .xmonad
+: 1599994008:0;vim xmonad.hs
+: 1599994095:0;ls
+: 1599994096:0;cd 
+: 1599994106:0;cd .xmonad
+: 1599994107:0;ls
+: 1599994109:0;vim xmonad.hs
+: 1599994794:0;ls
+: 1599994795:0;cd .xmonad
+: 1599994797:0;vim xmonad.hs
+: 1599994859:0;vim xmonad.errors
+: 1599994863:0;vim xmonad.hs
+: 1599994883:0;sudo pacman -Syyu
+: 1599994908:0;clean
+: 1599997248:0;sudo pacman -Sy gparted
+: 1599997256:0;gparted
+: 1599997396:0;ls
+: 1599997404:0;sudo pacman -Rs($pacman -Qdtq)
+: 1599997744:0;cd .xmonad
+: 1599997747:0;vim xmonad.hs
+: 1599997831:0;cd .xmonad
+: 1599997832:0;ls
+: 1599997834:0;vim xmonad.errors
+: 1599998011:0;cd .xmonad
+: 1599998014:0;vim xmonad.errors
+: 1599998018:0;vim xmonad.hs
+: 1600001789:0;rofi -show drun
+: 1600001902:0;quit
+: 1600001954:0;cd .xmonad
+: 1600001955:0;vim xmonad.hs
+: 1600001992:0;cd .xmonad
+: 1600001993:0;ls
+: 1600001999:0;vim xmonad.errors
+: 1600002011:0;cd .xmonad
+: 1600002012:0;ls
+: 1600002015:0;vim xmonad.hs
+: 1600002230:0;cd .xmonad
+: 1600002232:0;vim xmonad.errors
+: 1600002240:0;cd .xmonad
+: 1600002243:0;vim xmonad.hs
+: 1600002317:0;s
+: 1600002330:0;ls
+: 1600002399:0;cd .config/xmobar
+: 1600002400:0;cd..
+: 1600002402:0;cd ..
+: 1600002403:0;ld
+: 1600002404:0;ls
+: 1600002412:0;cd polybar
+: 1600002413:0;ls
+: 1600002415:0;vim config.ini
+: 1600002510:0;sudo pacman -Sy networkmanager
+: 1600002829:0;c
+: 1600002830:0;s
+: 1600002836:0;c
+: 1600002836:0;s
+: 1600002840:0;c
+: 1600002840:0;s
+: 1600002850:0;c
+: 1600002850:0;s
+: 1600002862:0;htop
+: 1600002888:0;vim
+: 1600002897:0;c
+: 1600002897:0;v
+: 1600002899:0;vim
+: 1600002926:0;ra
+: 1600003825:0;cd .config
+: 1600003831:0;mkrc -t polybar polybar
+: 1600003832:0;cd
+: 1600003837:0;cd .dotfiles
+: 1600003838:0;las
+: 1600003839:0;ls
+: 1600003847:0;cd tag-xmonad
+: 1600003847:0;ls
+: 1600003852:0;cd xmonad
+: 1600003852:0;ls
+: 1600003856:0;vim xmonad.hs
+: 1600003864:0;cd ..
+: 1600003865:0;ls
+: 1600003867:0;cd config
+: 1600003867:0;ls
+: 1600003869:0;cd
+: 1600003872:0;cd .dotfiles
+: 1600003879:0;ls
+: 1600003886:0;rm -rf tag-xmonad
+: 1600003886:0;cd
+: 1600003904:0;mkrc -t xmonad .xmonad
+: 1600003905:0;ls
+: 1600003907:0;cd .dotfiles
+: 1600003908:0;ls
+: 1600003912:0;lg

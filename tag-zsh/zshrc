@@ -1,3 +1,5 @@
+module_path+=( "/home/kyle/.zinit/bin/zmodules/Src" )
+zmodload zdharma/zplugin
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
@@ -18,16 +20,11 @@ source "$HOME/.zinit/bin/zinit.zsh"
 autoload -Uz _zinit
 (( ${+_comps} )) && _comps[zinit]=_zinit
 
-zinit light-mode for \
-		zinit-zsh/z-a-rust \
-		zinit-zsh/z-a-as-monitor \
-		zinit-zsh/z-a-patch-dl \
-		zinit-zsh/z-a-bin-gem-node
-
 # 设置Powerlevel10k
 zinit light romkatv/powerlevel10k
 
 # 快速目录跳转
+zinit ice lucid wait='0'
 zinit snippet OMZ::plugins/autojump/autojump.plugin.zsh
 
 # 语法高亮
@@ -46,14 +43,19 @@ zinit ice lucid wait='0'
 zinit light hlissner/zsh-autopair
 
 # 加载 Oh-My-Zsh 框架及部分插件
+zinit ice lucid wait='0'
 zinit snippet OMZ::lib/completion.zsh
 zinit snippet OMZ::lib/history.zsh
+zinit ice lucid wait='0'
 zinit snippet OMZ::lib/key-bindings.zsh
+zinit ice lucid wait='0'
 zinit snippet OMZ::lib/theme-and-appearance.zsh
+zinit ice lucid wait='0'
 zinit snippet OMZ::plugins/colored-man-pages/colored-man-pages.plugin.zsh
+zinit ice lucid wait='0'
 zinit snippet OMZ::plugins/sudo/sudo.plugin.zsh
 
-zinit ice svn
+zinit ice lucid wait='0' svn
 zinit snippet OMZ::plugins/extract
 
 zinit ice lucid wait='1'
@@ -67,14 +69,13 @@ export RANGER_LOAD_DEFAULT_RC=FALSE
 # FZF
 export FZF_DEFAULT_OPTS='--bind ctrl-e:down,ctrl-u:up --preview "[[ $(file --mime {}) =~ binary ]] && echo {} is a binary file || (ccat --color=always {} || highlight -O ansi -l {} || cat {}) 2> /dev/null | head -500"'
 export FZF_DEFAULT_COMMAND='ag --hidden --ignore .git -g ""'
-# export FZF_DEFAULT_COMMAND='fd --type f --hidden --follow --exclude .git'
+export FZF_DEFAULT_COMMAND='fd --type f --hidden --follow --exclude .git'
 export FZF_COMPLETION_TRIGGER='\'
 export FZF_TMUX_HEIGHT='80%'
 export FZF_PREVIEW_COMMAND='[[ $(file --mime {}) =~ binary ]] && echo {} is a binary file || (ccat --color=always {} || highlight -O ansi -l {} || cat {}) 2> /dev/null | head -500'
 
 # 别名
 alias c='clear'
-alias ls='exa'
 alias ll='ls -lh'
 alias la='ll -a'
 alias lr='la -R'
@@ -108,6 +109,9 @@ alias rm -rf='rm -i'
 alias lg='lazygit'
 alias pacupdate='~/.local/bin/pacupdate'
 alias clean='sudo pacman -R $(pacman -Qdtq)'
+
+# 在启动时pfetch
+pfetch
 
 # Powerlevel10k设置
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
