@@ -11009,3 +11009,351 @@ nvim
 : 1600003907:0;cd .dotfiles
 : 1600003908:0;ls
 : 1600003912:0;lg
+: 1600003949:0;cd .xmonad
+: 1600003950:0;ls
+: 1600003952:0;vim xmonad.hs
+: 1600004040:0;~/.config/polybar/launch.sh &
+: 1600004046:0;cd .xmonad
+: 1600004046:0;ls
+: 1600004048:0;cd
+: 1600004050:0;cd .config
+: 1600004050:0;ls
+: 1600004053:0;cd polybar
+: 1600004054:0;ls
+: 1600004069:0;cd .dotfiles
+: 1600004070:0;ls
+: 1600004075:0;cd tag-polybar
+: 1600004076:0;ls
+: 1600004079:0;l
+: 1600004086:0;cd config
+: 1600004086:0;ls
+: 1600004095:0;cd polybar
+: 1600004096:0;ls
+: 1600004100:0;cd config
+: 1600004102:0;ls
+: 1600004106:0;cd scripts
+: 1600004107:0;ls
+: 1600004109:0;cd ..
+: 1600004116:0;l
+: 1600004129:0;vim config
+: 1600004178:0;cd ..
+: 1600004178:0;ls
+: 1600004275:0;c
+: 1600004276:0;cd
+: 1600004276:0;c
+: 1600004277:0;ls
+: 1600004280:0;cd enigma
+: 1600004283:0;cd Enigma-V-2.0
+: 1600004284:0;ls
+: 1600004286:0;cd enigma
+: 1600004287:0;l
+: 1600004289:0;cd .config
+: 1600004290:0;ls
+: 1600004298:0;cd .config/polybar
+: 1600004299:0;ls
+: 1600004302:0;vim config
+: 1600004319:0;c
+: 1600004319:0;ls
+: 1600004322:0;cd polybar
+: 1600004322:0;ls
+: 1600004331:0;cd ..
+: 1600004336:0;rm -rf polybar
+: 1600004338:0;mkdir polybar
+: 1600004346:0;cp -r * ~/.config/polybar
+: 1600004361:0;ls
+: 1600004364:0;cd .config/polybar
+: 1600004365:0;ls
+: 1600004369:0;vim config.ini
+: 1600004385:0;killall polybar
+: 1600004387:0;~/.config/polybar/launch.sh &
+: 1600004449:0;ifonfig
+: 1600004452:0;ifconfig
+: 1600004464:0;killall polybar
+: 1600004467:0;~/.config/polybar/launch.sh &
+: 1600004495:0;c
+: 1600004499:0;killall polybar
+: 1600004501:0;~/.config/polybar/launch.sh &
+: 1600004531:0;killall polybar
+: 1600004533:0;~/.config/polybar/launch.sh &
+: 1600004564:0;killall polybar
+: 1600004565:0;~/.config/polybar/launch.sh &
+: 1600004651:0;c
+: 1600004652:0;killall polybar
+: 1600004654:0;~/.config/polybar/launch.sh &
+: 1600004669:0;killall polybar
+: 1600004669:0;~/.config/polybar/launch.sh &
+: 1600004682:0;killall polybar
+: 1600004682:0;~/.config/polybar/launch.sh &
+: 1600004696:0;killall polybar
+: 1600004697:0;~/.config/polybar/launch.sh &
+: 1600004764:0;killall polybar
+: 1600004764:0;~/.config/polybar/launch.sh &
+: 1600004781:0;killall polybar
+: 1600004781:0;~/.config/polybar/launch.sh &
+: 1600004819:0;killall polybar
+: 1600004820:0;~/.config/polybar/launch.sh &
+: 1600004842:0;killall polybar
+: 1600004843:0;~/.config/polybar/launch.sh &
+: 1600004860:0;ls
+: 1600004865:0;cd .dotfiles
+: 1600004867:0;ls
+: 1600004871:0;rm -rf tag-polybar
+: 1600004872:0;cd
+: 1600004876:0;c
+: 1600004881:0;cd .config
+: 1600004887:0;mkrc -t polybar polybar
+: 1600004904:0;~/.xmonad/scripts/change-wp.sh
+: 1600112685:0;ls
+: 1600112687:0;lsblk
+: 1600112695:0;cd .config
+: 1600112695:0;ls
+: 1600112701:0;cd polybar
+: 1600112702:0;ls
+: 1600112704:0;vim config.ini
+: 1600083921:0;man alacritty
+: 1600083933:0;alacritty -e sudo pacman -Syyu
+: 1600083979:0;cd .xmonad
+: 1600083981:0;ls
+: 1600083986:0;vim xmonad.errors
+: 1600083990:0;vim xmonad.hs
+: 1600084078:0;cd .xmonad
+: 1600084080:0;vim xmonad.hs
+: 1600084266:0;s
+: 1600084267:0;c
+: 1600084268:0;ra
+: 1600084272:0;htop
+: 1600084304:0;~/.xmonad/scripts/change-wp.sh
+: 1600084307:0;cd .xmonad
+: 1600084308:0;vim xmonad.hs
+: 1600084521:0;cd .xmonad
+: 1600084523:0;vim xmonad.hs
+: 1600084615:0;ls
+: 1600084618:0;time zsh -i -c exit
+: 1600084633:0;cd .xmonad
+: 1600084634:0;cd
+: 1600084638:0;cd .config/polybar
+: 1600084638:0;ls
+: 1600084640:0;vim config.ini
+: 1600084731:0;sudo pacman -Sy essid
+: 1600084959:0;c
+: 1600084960:0;pfetch
+: 1600084968:0;c
+: 1600084973:0;pfetch
+: 1600084981:0;c
+: 1600084982:0;pfetch
+: 1600084993:0;c
+: 1600085004:0;cd .xmonad
+: 1600085007:0;vim xmonad.hs
+: 1600085823:0;c
+: 1600085823:0;s
+: 1600085881:0;c
+: 1600086425:0;ls
+: 1600086431:0;j po
+: 1600086433:0;vim config.ini
+: 1600086439:0;c
+: 1600086440:0;ls
+: 1600086441:0;cd
+: 1600086442:0;c
+: 1600086444:0;j xmo
+: 1600086447:0;vim xmonad.hs
+: 1600086585:0;cd .xmonad
+: 1600086587:0;vim xmonad.errors
+: 1600086602:0;killall polybar
+: 1600086603:0;~/.xmonad/scripts/change-wp.sh
+: 1600086608:0;~/.config/polybar/launch.sh &
+: 1600086649:0;killall polybar
+: 1600086650:0;~/.config/polybar/launch.sh &
+: 1600086708:0;killall polybar
+: 1600086709:0;~/.config/polybar/launch.sh &
+: 1600086722:0;cd .xmonad
+: 1600086724:0;vim xmonad.errors
+: 1600086733:0;ls
+: 1600086733:0;c
+: 1600086738:0;killall polybar
+: 1600086742:0;~/.config/polybar/launch.sh &
+: 1600086808:0;killall polybar
+: 1600086812:0;~/.config/polybar/launch.sh &
+: 1600087105:0;s
+: 1600087195:0;cd .xmonad
+: 1600087196:0;vim xmonad.errors
+: 1600087209:0;cd .xmonad
+: 1600087210:0;vim xmonad.errors
+: 1600087213:0;killall polybar
+: 1600087215:0;~/.config/polybar/launch.sh &
+: 1600087239:0;cd .xmonad
+: 1600087240:0;vim xmonad.errors
+: 1600087251:0;cd
+: 1600087255:0;killall polybar
+: 1600087257:0;~/.config/polybar/launch.sh &
+: 1600087379:0;c
+: 1600087379:0;s
+: 1600088120:0;c
+: 1600088121:0;j po
+: 1600088125:0;vim config.ini
+: 1600088152:0;killall polybar
+: 1600088154:0;~/.config/polybar/launch.sh &
+: 1600088165:0;killall polybar
+: 1600088167:0;~/.config/polybar/launch.sh &
+: 1600088183:0;killall polybar
+: 1600088184:0;~/.config/polybar/launch.sh &
+: 1600088217:0;killall polybar
+: 1600088218:0;~/.config/polybar/launch.sh &
+: 1600088244:0;killall polybar
+: 1600088245:0;~/.config/polybar/launch.sh &
+: 1600088263:0;killall polybar
+: 1600088264:0;~/.config/polybar/launch.sh &
+: 1600088277:0;killall polybar
+: 1600088278:0;~/.config/polybar/launch.sh &
+: 1600088305:0;killall polybar
+: 1600088307:0;~/.config/polybar/launch.sh &
+: 1600089094:0;fgit-go clone https://github.com/afreidz/dots.git
+: 1600089097:0;ls
+: 1600089105:0;ra
+: 1600089128:0;ls
+: 1600089130:0;cd dots
+: 1600089131:0;ls
+: 1600089151:0;rm -rf ~/.config/neofetch
+: 1600089162:0;cp -r neofetch ~/.config/neofetch
+: 1600089165:0;s
+: 1600089168:0;neofetch
+: 1600089175:0;s
+: 1600089182:0;cd .config/neofetch
+: 1600089183:0;ls
+: 1600089187:0;mpv arch-logo.png
+: 1600089193:0;vim config.conf
+: 1600089229:0;neofetch
+: 1600089242:0;sudo pacman -Sy w3m
+: 1600089249:0;w3m
+: 1600089255:0;neofetch
+: 1600089278:0;ra
+: 1600089298:0;c
+: 1600089323:0;neofetch
+: 1600089344:0;c
+: 1600089350:0;yay -Sy nautilus
+: 1600091593:0;sudo pacman -Sy ueberzug
+: 1600091597:0;c
+: 1600091601:0;vim
+: 1600091604:0;ra
+: 1600091662:0;c
+: 1600091677:0;vimc
+: 1600091678:0;c
+: 1600091680:0;vim
+: 1600091697:0;neofetch
+: 1600091710:0;c
+: 1600091714:0;ls
+: 1600091717:0;j neo
+: 1600091718:0;ls
+: 1600091724:0;vim config.conf
+: 1600091738:0;cd ..
+: 1600091747:0;mv neofetch neofetch.bak
+: 1600091750:0;neofetch
+: 1600091752:0;s
+: 1600091755:0;c
+: 1600091757:0;w3m
+: 1600091770:0;ra
+: 1600091795:0;ls
+: 1600091798:0;cd .config
+: 1600091801:0;cd
+: 1600091803:0;j co
+: 1600091806:0;rm -rf neofetch
+: 1600091807:0;cd
+: 1600091808:0;s
+: 1600091812:0;cd dots
+: 1600091813:0;lks
+: 1600091813:0;ls
+: 1600091819:0;sudo pacman -Rsunc
+: 1600091827:0;sudo pacman -Rsunc w3m
+: 1600091849:0;brew install w3m
+: 1600091866:0;sudo pacman -Sy w3m
+: 1600091879:0;cd dots
+: 1600091885:0;cd .config
+: 1600091889:0;mkdir neofetch
+: 1600091893:0;cd neofetch
+: 1600091893:0;ls
+: 1600091895:0;vim config.conf
+: 1600091908:0;cd ..
+: 1600091911:0;rm -rf neofetch
+: 1600091912:0;mkdir neofetch.bak
+: 1600091915:0;mkdir neofetch
+: 1600091917:0;ls
+: 1600091919:0;cd neofetch
+: 1600091931:0;cp -r * ~/.config/neofetch
+: 1600091933:0;ls
+: 1600091936:0;cd neofetch
+: 1600091937:0;ls
+: 1600091941:0;neofetch
+: 1600091945:0;s
+: 1600091950:0;neofetch
+: 1600091961:0;cd .config/neofetch
+: 1600091963:0;vim config.conf
+: 1600091978:0;neofetch
+: 1600091994:0;s
+: 1600092008:0;neofetch
+: 1600092017:0;sudo pacman -Sy caca
+: 1600092022:0;neofetch
+: 1600092036:0;sudo pacman -Sy chafa
+: 1600092040:0;neofetch
+: 1600092053:0;sudo pacman -Sy jp2a
+: 1600092057:0;neofetch
+: 1600092064:0;sudo pacman -Rsn jp2a chafa
+: 1600092083:0;sudo pacman -Sy termpix
+: 1600092091:0;sudo pacman -Sy pixterm
+: 1600092096:0;sudo pacman -Sy tycat
+: 1600092102:0;ne
+: 1600092105:0;neofetch
+: 1600092154:0;sudo pacman -Rsunc w3m
+: 1600092159:0;neofetch
+: 1600092172:0;yay -Sy w3m
+: 1600092208:0;sudo pacman -Sy w3m-img
+: 1600092236:0;c
+: 1600092240:0;w3m baidu.com
+: 1600092271:0;cd Pictures/ÊÉÅÉ¨ÈÉΩÉÇÂÉªæÁÉ©Éß
+: 1600092277:0;_w3m 35\ Way\ Back.jpg
+: 1600092282:0;w3m 35\ Way\ Back.jpg
+: 1600092292:0;neofetch
+: 1600164261:0;s
+: 1600175077:0;ls
+: 1600175079:0;cd .config
+: 1600175080:0;ls
+: 1600175095:0;cd polybar
+: 1600175096:0;ls
+: 1600175098:0;vim config.conf
+: 1600175103:0;vim config.ini
+: 1600175140:0;killall polybar
+: 1600175143:0;~/.config/polybar/launch.sh &
+: 1600176979:0;vim
+: 1600177232:0;vim main.cpp
+: 1600177237:0;vim --startuptime ~/startuptime.txt
+: 1600177240:0;vim startuptime.txt
+: 1600254785:0;s
+: 1600254904:0;cd .config
+: 1600254905:0;ls
+: 1600254918:0;rm -rf neofetch.bak
+: 1600254920:0;mv neofetch neofetch.bak
+: 1600254928:0;vim
+: 1600254951:0;sudo pacman -Syyu
+: 1600254960:0;pacman -Syyu
+: 1600254962:0;sudo pacman -Syyu
+: 1600255322:0;s
+: 1600255903:0;c
+: 1600255952:0;yay -Sy taffybar
+: 1600256088:0;PS1=~ ÔÉ£ª
+: 1600256095:0;PS1=Kyle
+: 1600256110:0;export PS1=Kyle
+: 1600256340:0;hp
+: 1600256343:0;yay -Sy taffybar
+: 1600256589:0;ls
+: 1601237372:0;shutdown
+: 1601237374:0;shutdown now
+: 1602532603:0;sudo pacman -Syyu
+: 1602503861:0;ls
+: 1602503866:0;cd .config/polybar
+: 1602503866:0;ls
+: 1602503871:0;vim configs
+: 1602503876:0;ra
+: 1602503915:0;$HOME/.config/polybar/scripts/check-network
+: 1602504061:0;ls
+: 1602504063:0;cd .do
+: 1602504065:0;cd .dotfiles
+: 1602504066:0;ls
+: 1602504072:0;lg

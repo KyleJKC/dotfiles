@@ -68,7 +68,7 @@ myModMask = mod4Mask
 encodeCChar = map fromIntegral . B.unpack
 myFocusFollowsMouse = True
 myBorderWidth = 0
-myWorkspaces    = ["\61612","\61899","\61947","\61635","\61502","\61501","\61705","\61564","\62150","\61872"]
+myWorkspaces    = ["\61612","\62059","\61635","\61947","\61502","\61501","\61705","\61564","\62150","\61899"]
 --myWorkspaces    = ["1","2","3","4","5","6","7","8","9","10"]
 -- myWorkspaces    = ["TERM","MUSIC","WEB","FILES","DEV"]
 --myWorkspaces    = ["DEV","WWW","CNF","DOC","MEDIA","VBOX","CHAT","GFX"]
@@ -140,93 +140,17 @@ myMouseBindings (XConfig {XMonad.modMask = modMask}) = M.fromList $
 myKeys conf@(XConfig {XMonad.modMask = modMask}) = M.fromList $
 
   [ ((modMask, xK_d), spawn $ "rofi -show drun" )
-  , ((modMask, xK_c), spawn $ "ty" )
   , ((modMask, xK_f), sendMessage $ Toggle NBFULL)
   , ((modMask, xK_x), kill )
   , ((modMask, xK_r), spawn $ "rofi-theme-selector" )
-  , ((modMask, xK_t), spawn $ "xkill" )
-  , ((modMask, xK_v), spawn $ "exec urxvt -e vid" )
-  , ((modMask, xK_y), spawn $ "polybar-msg cmd toggle" )
   , ((modMask, xK_q), spawn $ "xmonad --recompile && xmonad --restart")
   , ((modMask, xK_Return), spawn $ "alacritty" )
 
   -- SUPER + SHIFT KEYS
 
   , ((modMask .|. shiftMask , xK_q ), kill)
-  , ((modMask .|. shiftMask , xK_x ), io (exitWith ExitSuccess))
-
-  -- CONTROL + ALT KEYS
-
-  , ((controlMask .|. mod1Mask , xK_Next ), spawn $ "conky-rotate -n")
-  , ((controlMask .|. mod1Mask , xK_Prior ), spawn $ "conky-rotate -p")
-  , ((controlMask .|. mod1Mask , xK_a ), spawn $ "xfce4-appfinder")
-  , ((controlMask .|. mod1Mask , xK_b ), spawn $ "thunar")
-  , ((controlMask .|. mod1Mask , xK_c ), spawn $ "catfish")
-  , ((controlMask .|. mod1Mask , xK_e ), spawn $ "arcolinux-tweak-tool")
-  , ((controlMask .|. mod1Mask , xK_f ), spawn $ "firefox")
-  , ((controlMask .|. mod1Mask , xK_g ), spawn $ "chromium -no-default-browser-check")
-  , ((controlMask .|. mod1Mask , xK_i ), spawn $ "nitrogen")
-  , ((controlMask .|. mod1Mask , xK_k ), spawn $ "quit")
-  , ((controlMask .|. mod1Mask , xK_l ), spawn $ "quit")
-  , ((controlMask .|. mod1Mask , xK_m ), spawn $ "xfce4-settings-manager")
-  , ((controlMask .|. mod1Mask , xK_o ), spawn $ "$HOME/.xmonad/scripts/picom-toggle.sh")
-  , ((controlMask .|. mod1Mask , xK_p ), spawn $ "pamac-manager")
-  , ((controlMask .|. mod1Mask , xK_r ), spawn $ "rofi-theme-selector")
-  , ((controlMask .|. mod1Mask , xK_s ), spawn $ "spotify")
-  , ((controlMask .|. mod1Mask , xK_t ), spawn $ "urxvt")
-  , ((controlMask .|. mod1Mask , xK_u ), spawn $ "pavucontrol")
-  , ((controlMask .|. mod1Mask , xK_v ), spawn $ "vivaldi-stable")
-  , ((controlMask .|. mod1Mask , xK_w ), spawn $ "arcolinux-welcome-app")
-  , ((controlMask .|. mod1Mask , xK_Return ), spawn $ "urxvtc")
-
-  -- ALT + ... KEYS
-
-  , ((mod1Mask, xK_f), spawn $ "variety -f" )
-  , ((mod1Mask, xK_n), spawn $ "variety -n" )
-  , ((mod1Mask, xK_p), spawn $ "variety -p" )
-  , ((mod1Mask, xK_r), spawn $ "xmonad --restart" )
-  , ((mod1Mask, xK_t), spawn $ "variety -t" )
-  , ((mod1Mask, xK_Up), spawn $ "variety --pause" )
-  , ((mod1Mask, xK_Down), spawn $ "variety --resume" )
-  , ((mod1Mask, xK_Left), spawn $ "variety -p" )
-  , ((mod1Mask, xK_Right), spawn $ "variety -n" )
-  , ((mod1Mask, xK_F2), spawn $ "gmrun" )
-  , ((mod1Mask, xK_F3), spawn $ "xfce4-appfinder" )
-
-  --BSP KEYS
-
-  , ((modMask .|. mod1Mask, xK_Right ), sendMessage $ ExpandTowards R)
-  , ((modMask .|. mod1Mask, xK_Left ), sendMessage $ ExpandTowards L)
-  , ((modMask .|. mod1Mask, xK_Down ), sendMessage $ ExpandTowards D)
-  , ((modMask .|. mod1Mask,  xK_Up ), sendMessage $ ExpandTowards U)
-  , ((modMask .|. mod1Mask .|. controlMask , xK_Left ), sendMessage $ ShrinkFrom R)
-  , ((modMask .|. mod1Mask .|. controlMask , xK_Right ), sendMessage $ ShrinkFrom L)
-  , ((modMask .|. mod1Mask .|. controlMask , xK_Up ), sendMessage $ ShrinkFrom D)
-  , ((modMask .|. mod1Mask .|. controlMask , xK_Down ), sendMessage $ ShrinkFrom U)
-  , ((modMask, xK_r ), sendMessage Rotate)
-  , ((modMask, xK_y ), sendMessage Swap)
-  , ((modMask, xK_n ), sendMessage FocusParent)
-  , ((modMask .|. controlMask, xK_n ), sendMessage SelectNode)
-  , ((modMask .|. shiftMask, xK_n ), sendMessage MoveNode)
-
-  --VARIETY KEYS WITH PYWAL
-
-  , ((mod1Mask .|. shiftMask , xK_f ), spawn $ "variety -f && wal -i $(cat $HOME/.config/variety/wallpaper/wallpaper.jpg.txt)&")
-  , ((mod1Mask .|. shiftMask , xK_n ), spawn $ "variety -n && wal -i $(cat $HOME/.config/variety/wallpaper/wallpaper.jpg.txt)&")
-  , ((mod1Mask .|. shiftMask , xK_p ), spawn $ "variety -p && wal -i $(cat $HOME/.config/variety/wallpaper/wallpaper.jpg.txt)&")
-  , ((mod1Mask .|. shiftMask , xK_t ), spawn $ "variety -t && wal -i $(cat $HOME/.config/variety/wallpaper/wallpaper.jpg.txt)&")
-  , ((mod1Mask .|. shiftMask , xK_u ), spawn $ "wal -i $(cat $HOME/.config/variety/wallpaper/wallpaper.jpg.txt)&")
-
-  --CONTROL + SHIFT KEYS
-
-  , ((controlMask .|. shiftMask , xK_Escape ), spawn $ "xfce4-taskmanager")
-
-  --SCREENSHOTS
-
-  , ((0, xK_Print), spawn $ "scrot 'Arch-%Y-%m-%d-%s_screenshot_$wx$h.jpg' -e 'mv $f $$(xdg-user-dir PICTURES)'")
-  , ((controlMask, xK_Print), spawn $ "maim -d 5 %Y-%m-%d-%s.png" )
-  , ((controlMask .|. shiftMask , xK_Print ), spawn $ "gnome-screenshot -i")
-  , ((modMask, xK_space), sendMessage NextLayout)
+  , ((modMask .|. shiftMask , xK_c ), io (exitWith ExitSuccess))
+  , ((modMask .|. shiftMask , xK_w), spawn $ "~/.xmonad/scripts/change-wp.sh" )
 
   --Focus selected desktop
   , ((mod1Mask, xK_Tab), nextWS)
@@ -244,31 +168,31 @@ myKeys conf@(XConfig {XMonad.modMask = modMask}) = M.fromList $
   , ((modMask .|. shiftMask, xK_space), setLayout $ XMonad.layoutHook conf)
 
   -- Move focus to the next window.
-  , ((modMask, xK_Down), windows W.focusDown)
+  , ((modMask, xK_j), windows W.focusDown)
 
   -- Move focus to the previous window.
-  , ((modMask, xK_Up), windows W.focusUp  )
+  , ((modMask, xK_k), windows W.focusUp  )
 
   -- Move focus to the next window.
-  , ((modMask, xK_Left), windows W.focusUp)
+  , ((modMask, xK_k), windows W.focusUp)
 
   -- Move focus to the previous window.
-  , ((modMask, xK_Right), windows W.focusDown  )
+  , ((modMask, xK_j), windows W.focusDown  )
 
   -- Move focus to the master window.
   , ((modMask .|. shiftMask, xK_m), windows W.focusMaster  )
 
   -- Swap the focused window with the next window.
-  , ((modMask .|. shiftMask, xK_Down), windows W.swapDown  )
+  , ((modMask .|. shiftMask, xK_j), windows W.swapDown  )
 
   -- Swap the focused window with the next window.
-  , ((controlMask .|. modMask, xK_l), windows W.swapDown  )
+  , ((controlMask .|. modMask, xK_j), windows W.swapDown  )
 
   -- Swap the focused window with the previous window.
-  , ((modMask .|. shiftMask, xK_Up), windows W.swapUp    )
+  , ((modMask .|. shiftMask, xK_k), windows W.swapUp    )
 
   -- Swap the focused window with the previous window.
-  , ((controlMask .|. modMask, xK_Up), windows W.swapUp  )
+  , ((controlMask .|. modMask, xK_k), windows W.swapUp  )
 
   -- Shrink the master area.
   , ((controlMask .|. modMask , xK_Up), sendMessage Shrink)
