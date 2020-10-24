@@ -42,15 +42,13 @@ import Control.Monad (liftM2)
 import qualified DBus as D
 import qualified DBus.Client as D
 
-
 myStartupHook = do
     setWMName "Xmonad"
     spawnOnce "~/.xmonad/scripts/autochange-wp.sh &"
     -- spawnOnce "feh --bg-fill ~/Pictures/桌面图片/Lake.jpg"
     spawnOnce "picom &"
     spawnOnce "fcitx &"
-    spawnOnce "~/.config/polybar/launch.sh"
-
+    spawnOnce "~/.config/polybar/launch.sh &"
 
 -- colours
 normBord = "#4f4f4f"
@@ -119,7 +117,6 @@ myLayout = spacingRaw True (Border 0 5 5 5) True (Border 5 5 5 5) True $ avoidSt
         nmaster = 1
         delta = 3/100
         tiled_ratio = 1/2
-
 
 myMouseBindings (XConfig {XMonad.modMask = modMask}) = M.fromList $
 
