@@ -11441,3 +11441,212 @@ nvim
 : 1603514283:0;vim .zshrc
 : 1603514287:0;cd .dotfiles
 : 1603514289:0;lg
+: 1603548061:0;s
+: 1603548062:0;c
+: 1603548062:0;s
+: 1603519383:0;c
+: 1603519386:0;time zsh -i -c exit
+: 1603519401:0;vim .zshrc
+: 1603519421:0;time zsh -i -c exit
+: 1603519488:0;zinit module build
+: 1603519506:0;time zsh -i -c exit
+: 1603526830:0;vim
+: 1604119558:0;ra
+: 1604119564:0;sudo pacman -Sy hunter
+: 1604119572:0;hunter
+: 1604119599:0;ra
+: 1604119612:0;vim
+: 1604119617:0;vim main.cpp
+: 1604672010:0;vim
+: 1604672381:0;vim main.cpp
+: 1604672685:0;vim
+: 1604673025:0;shutdown now
+: 1604849973:0;vim
+: 1604821329:0;sudo pacman -Sy qemu libvirt ovmf
+: 1604821352:0;sudo pacman -Sy virt-manager
+: 1604821380:0;sudo pacman -Sy qemu-kvm
+: 1604821403:0;hp
+: 1604821449:0;git clone https://github.com/foxlet/macOS-Simple-KVM.git
+: 1604821463:0;ls
+: 1604821466:0;ra
+: 1604821480:0;sudo pacman -Sy fgit-go
+: 1604821487:0;fgit-go 
+: 1604821496:0;vim .zshrc
+: 1604821512:0;hp
+: 1604821525:0;git clone https://github.com/foxlet/macOS-Simple-KVM.git
+: 1604821552:0;fgit clone https://github.com/foxlet/macOS-Simple-KVM.git
+: 1604821560:0;ls
+: 1604821561:0;ra
+: 1604821569:0;c
+: 1604821572:0;cd macOS-Simple-KVM
+: 1604821575:0;su
+: 1604821598:0;hp
+: 1604821600:0;cd macOS-Simple-KVM
+: 1604821603:0;sudo ./jumpstart.sh
+: 1604821719:0;su
+: 1604821733:0;cd macOS-Simple-KVM
+: 1604821734:0;hp
+: 1604821736:0;su
+: 1604821818:0;sudo qemu-img create -t qcow2 MyDisk.qcow2 64G
+: 1604821826:0;sudo qemu-img create -f qcow2 MyDisk.qcow2 64G
+: 1604821846:0;ls
+: 1604821849:0;cd macOS-Simple-KVM
+: 1604821851:0;ls
+: 1604821854:0;ra
+: 1604822017:0;c
+: 1604822035:0;sudo ./basic.sh
+: 1604822047:0;sudo qemu-img create -f qcow2 MyDisk.qcow2 64G
+: 1604822050:0;sudo ./basic.sh
+: 1604822544:0;man qemu-img
+: 1604822754:0;virsh list --all
+: 1604822799:0;virsh destroy boxes-unknown
+: 1604822810:0;ls
+: 1604822815:0;rm -rf MyDisk.qcow2
+: 1604822818:0;cd macOS-Simple-KVM
+: 1604822826:0;ra
+: 1604822873:0;ls
+: 1604822881:0;cd macOS-Simple-KVM
+: 1604822883:0;ks
+: 1604822884:0;ls
+: 1604822897:0;cp basic.sh ~/basic.sh
+: 1604822908:0;rm -rf MyDisk.qcow2
+: 1604822910:0;cp basic.sh ~/basic.sh
+: 1604822912:0;cd ..
+: 1604822915:0;rm -rf macOS-Simple-KVM
+: 1604822922:0;sudo rm -rf macOS-Simple-KVM
+: 1604823002:0;ls
+: 1604823008:0;fgit clone https://github.com/foxlet/macOS-Simple-KVM.git
+: 1604823033:0;ls
+: 1604823036:0;vim basic.sh
+: 1604823040:0;cd macOS-Simple-KVM
+: 1604823040:0;ls
+: 1604823046:0;rm -rf basic.sh
+: 1604823058:0;mv ~/basic.sh ./basic.sh
+: 1604823061:0;ls
+: 1604823061:0;c
+: 1604823063:0;vim basic.sh
+: 1604823443:0;lsblk
+: 1604823799:0;su
+: 1604857938:0;feh --recursive --randomize --bg-fill ~/Pictures/ÊÉÅÉ¨ÈÉΩÉÇÂÉªæÁÉ©Éß/
+: 1604857944:0;ls
+: 1604829155:0;lsblk
+: 1604829164:0;cfdisk /dev/sda
+: 1604829169:0;sudo cfdisk /dev/sda
+: 1604829182:0;c
+: 1604829184:0;lsblk
+: 1604829199:0;cfdisk /dev/sda
+: 1604829202:0;sudo cfdisk /dev/sda
+: 1604829211:0;c
+: 1604829212:0;lsblk
+: 1604829237:0;mkfs.ext4 /dev/sda2
+: 1604829239:0;sudo mkfs.ext4 /dev/sda2
+: 1604829251:0;c
+: 1604829255:0;lsblk
+: 1604829410:0;mkdir /mcos
+: 1604829411:0;sudo mkdir /mcos
+: 1604829426:0;mount /dev/sda2 /mcos
+: 1604829429:0;sudo mount /dev/sda2 /mcos
+: 1604858322:0;cd /mcos
+: 1604858324:0;ls
+: 1604829610:0;sudo mount /dev/sda2 /mcos
+: 1604829648:0;vim /etc/fstab
+: 1604829688:0;lsblk
+: 1604829704:0;sudo vim /etc/fstab
+: 1604829722:0;sudo nvim /etc/fstab
+: 1604829869:0;cp /etc/fstab ~/fstab
+: 1604829872:0;su
+: 1604830014:0;sudo nvim /etc/fstab
+: 1604830286:0;chmod -R 777 /mcos
+: 1604830290:0;sudo chmod -R 777 /mcos
+: 1604830301:0;cd /mcos
+: 1604830302:0;ls
+: 1604830309:0;mkdir test
+: 1604830310:0;ls
+: 1604830313:0;rm -rf test
+: 1604830331:0;fgit clone https://github.com/foxlet/macOS-Simple-KVM.git
+: 1604830375:0;ls
+: 1604830377:0;cd macOS-Simple-KVM
+: 1604830378:0;ls
+: 1604830394:0;su
+: 1604830421:0;vim
+: 1604830427:0;vim main.cpp
+: 1604834978:0;cd Workspace
+: 1604834978:0;ls
+: 1604835143:0;cd
+: 1604835144:0;vim
+: 1604835231:0;cd Git/KyleJKC.github.io
+: 1604835232:0;ls
+: 1604835240:0;cd docs
+: 1604835241:0;ls
+: 1604835243:0;cd ..
+: 1604835244:0;cd blogs
+: 1604835245:0;ls
+: 1604835248:0;cd ÊÉ™ÄÊÉºØÂÉ®É¶‰∫´
+: 1604835249:0;ls
+: 1604835250:0;cd ..
+: 1604835252:0;cd ÊÉ®É±ÁÉ∫É§ÊÉ∑•Â∏∏
+: 1604835253:0;ls
+: 1604835255:0;cd 2020
+: 1604835256:0;ls
+: 1604835270:0;mkdir ~/Git/KyleJKC.github.io/blogs/ÊÉ™ÄÊÉºØÂÉ®É¶‰∫´/2020
+: 1604835314:0;cp ÊÉª¥ÊÉ≠ÉÇÂÉ≠É∫ÂÆÉÇÂÉµ¶ÔºÅ.md ../../ÊÉ™ÄÊÉºØÂÉ®É¶‰∫´/2020/Hackintosh-in-any-PC!
+: 1604835317:0;cd ../..
+: 1604835317:0;ls
+: 1604835321:0;cd ÊÉ™ÄÊÉºØÂÉ®É¶‰∫´
+: 1604835322:0;ls
+: 1604835323:0;cd 2020
+: 1604835323:0;ls
+: 1604835335:0;mv Hackintosh-in-any-PC\! Hackintosh-in-any-PC
+: 1604835349:0;ra
+: 1604835360:0;mv Hackintosh-in-any-PC\! Hackintosh-in-any-PC.md
+: 1604835361:0;ls
+: 1604835363:0;vim Hackintosh-in-any-PC.md
+: 1604836778:0;sudo pacman -Sy python-wh
+: 1604836784:0;sudo pacman -Sy python-wheel
+: 1604836789:0;c
+: 1604836801:0;sudo pacman -S virt-manager
+: 1604836825:0;systemctl enable libvirtd.service virlogd.service
+: 1604836834:0;systemctl enable libvirtd.service virtlogd.service
+: 1604836845:0;systemctl start libvirtd.service virtlogd.service
+: 1604836867:0;sudo nvim /etc/libvirt/qemu.conf
+: 1604836929:0;systemctl restart libvirtd.service virtlogd.service
+: 1604837276:0;cd macOS-Simple-KVM
+: 1604837277:0;ls
+: 1604837282:0;vim macos.xml
+: 1604837355:0;virt-manager
+: 1604837421:0;ls
+: 1604837424:0;cd macOS-Simple-KVM
+: 1604837425:0;ls
+: 1604837432:0;cd..
+: 1604837435:0;c
+: 1604837435:0;cd
+: 1604837437:0;c
+: 1604837442:0;rm -rf macOS-Simple-KVM
+: 1604837446:0;cd /mcos
+: 1604837450:0;vim macos.xml
+: 1604837647:0;ls
+: 1604837659:0;mv macos.xml ./macOS-Simple-KVM/macos.xml
+: 1604837662:0;cd macOS-Simple-KVM
+: 1604837662:0;ls
+: 1604837679:0;virsh define macos.xml
+: 1604837693:0;vim macos.xml
+: 1604837777:0;lspci -nn |grep NVIDIA
+: 1604838037:0;cd /mcos
+: 1604838045:0;cd macOS-Simple-KVM
+: 1604838049:0;virsh define macos.xml
+: 1604838056:0;vim macos.xml
+: 1604838108:0;cd /mcos/macOS-Simple-KVM
+: 1604838117:0;vim ./basic.sh
+: 1604838129:0;./basic.sh
+: 1604838142:0;su
+: 1604918338:0;ls
+: 1604918345:0;vim .xprofile
+: 1604918373:0;ls
+: 1604918377:0;vim .xprofile
+: 1604918554:0;sudo pacman -Syyu
+: 1604918898:0;vim
+: 1604918902:0;v
+: 1604918903:0;c
+: 1604918912:0;cd .dotfiles
+: 1604918919:0;fzf
+: 1604918922:0;lg
