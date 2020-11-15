@@ -94,8 +94,8 @@ alias s='neofetch|lolcat'
 alias pip3sp="sudo -H pip3 --proxy localhost:1081"
 alias pip3p="pip3 --proxy localhost:1081"
 alias aptp="sudo apt -c ~/.apt.conf"
-alias hp='export http_proxy="localhost:8889"
-export https_proxy="localhost:8889"
+alias hp='export http_proxy="localhost:1080"
+export https_proxy="localhost:1080"
 echo "http_proxy:"$http_proxy "https_proxy:"$https_proxy'
 alias jlog='journalctl -f -o short -u'
 alias h='history -ir -10'

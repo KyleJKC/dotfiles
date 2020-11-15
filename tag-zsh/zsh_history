@@ -11650,3 +11650,392 @@ nvim
 : 1604918912:0;cd .dotfiles
 : 1604918919:0;fzf
 : 1604918922:0;lg
+: 1604920095:0;cd Downloads
+: 1604920096:0;ls
+: 1604920109:0;tar Mkos-Big
+: 1604920119:0;man tar
+: 1604921541:0;tar -xvzf Mkos-Big-Sur\ \(1\).tar.xz
+: 1604921580:0;cd Music
+: 1604921581:0;ls
+: 1604921591:0;tar -xzvf Mkos-Big-Sur\ \(1\).tar.xz
+: 1604921606:0;tar -xzvf Mkos-Big-Sur(1).tar.xz
+: 1604921694:0;xz -d Mkos-Big-Sur\ \(1\).tar.xz
+: 1604924784:0;vim
+: 1604925840:0;vim main.cpp
+: 1604925899:0;vim
+: 1604925969:0;hp
+: 1604925990:0;git clone https://github.com/glepnir/nvim.git ~/.config/nvim
+: 1604925993:0;vim
+: 1604926088:0;cd .config
+: 1604926095:0;mv nvim nvim.gh
+: 1604926099:0;mv nvim.bak nvim
+: 1604926100:0;cd
+: 1604926101:0;vi
+: 1604926205:0;sudo pacman -Sy lua
+: 1604926212:0;vim
+: 1604926373:0;lua
+: 1604926377:0;python
+: 1604926387:0;c
+: 1604926389:0;s
+: 1604926390:0;c
+: 1604926391:0;s
+: 1604926927:0;vim
+: 1604926962:0;vim test.lua
+: 1604927097:0;vim
+: 1604927240:0;vim .config/nvim/coc-settings.json
+: 1604927281:0;c
+: 1604927281:0;vim
+: 1604927285:0;vim test.lua
+: 1604927343:0;luarocks install --server=http://luarocks.org/dev lua-lsp
+: 1604927350:0;sudo luarocks install --server=http://luarocks.org/dev lua-lsp
+: 1604927378:0;sudo luarocks install --server=http://luarocks.org/dev lua-lsp --check-lua-versions
+: 1604927424:0;luarocks-5.3
+: 1604927435:0;sudo pacman -Sy lua53
+: 1604927443:0;luarocks-5.3
+: 1604927461:0;luarocks install --server=http://luarocks.org/dev lua-lsp
+: 1604927463:0;sudo luarocks install --server=http://luarocks.org/dev lua-lsp
+: 1604927470:0;sudo luarocks install --server=http://luarocks.org/dev lua-lsp --check-lua-versions
+: 1604927504:0;sudo pacman -Sy luarocks
+: 1604927520:0;sudo pacman -R lua
+: 1604927526:0;sudo pacman -Rsn lua
+: 1604927528:0;sudo pacman -Rsun lua
+: 1604927536:0;sudo pacman -Sy lua53
+: 1604927570:0;lua-lsp
+: 1604927598:0;yay -Sy lua-lsp
+: 1604927627:0;yay -S lua-language-server-git
+: 1604927666:0;ln -sf /usr/bin/fgit /usr/bin/git
+: 1604927669:0;sudo ln -sf /usr/bin/fgit /usr/bin/git
+: 1604927672:0;yay -S lua-language-server-git
+: 1604927741:0;hp
+: 1604927743:0;yay -S lua-language-server-git
+: 1604927779:0;sudo rm -rf /usr/bin/git
+: 1604927894:0;git
+: 1604927898:0;sudo pacman -R git
+: 1604927912:0;sudo pacman -S git
+: 1604927914:0;git
+: 1604927916:0;c
+: 1604927917:0;fgit
+: 1604927920:0;yay -S lua-language-server-git
+: 1604927924:0;hp
+: 1604927925:0;yay -S lua-language-server-git
+: 1604928046:0;lua-lsp
+: 1604928054:0;lua5.3
+: 1604928081:0;vim test.lua
+: 1604928134:0;vim
+: 1604928635:0;cd /mcos/macOS-Simple-KVM
+: 1604928638:0;./basic.sh
+: 1604928651:0;sudo ./basic.sh
+: 1604997691:0;ls
+: 1604997723:0;where is neovim
+: 1604997725:0;where is nvim
+: 1604997730:0;nvim
+: 1604997740:0;pacman -Q nvim
+: 1604997746:0;pacman -Q neovim
+: 1604997759:0;sudo pacman -S neovim-git
+: 1604997861:0;cd /mcos/macOS-Simple-KVM
+: 1604997863:0;./basic.sh
+: 1604997867:0;sudo ./basic.sh
+: 1604997911:0;vim
+: 1605002072:0;yay -Sy neovim-nightly
+: 1605002110:0;hp
+: 1605002117:0;yay -S neovim-nightly
+: 1605002188:0;nvim
+: 1605002200:0;vim test.lua
+: 1605002204:0;c
+: 1605002204:0;vim
+: 1605002212:0;rm -rf startuptime.txt
+: 1605002215:0;vim --startuptime ~/startuptime.txt
+: 1605002217:0;vim startuptime.txt
+: 1605002220:0;vim
+: 1605002393:0;vim main.cpp\
+: 1605002394:0;vim main.cpp
+: 1605002400:0;vim
+: 1605002630:0;vim main.cpp
+: 1605002668:0;c
+: 1605002696:0;vim
+: 1605002758:0;curl https://raw.githubusercontent.com/Shougo/dein.vim/master/bin/installer.sh > installer.sh
+: 1605002764:0;sh ./installer.sh ~/.cache/dein
+: 1605002771:0;vim
+: 1605002781:0;vim main.cpp
+: 1605003088:0;cd .config/nvim
+: 1605003093:0;make
+: 1605003130:0;make install
+: 1605003182:0;vim
+: 1605003187:0;cd .config/nvim
+: 1605003188:0;cd ..
+: 1605003190:0;rm -rf nvim
+: 1605003192:0;vim
+: 1605003194:0;cd
+: 1605003196:0;hp
+: 1605003196:0;c
+: 1605003214:0;git clone --depth=1 https://github.com/hardcoreplayers/ThinkVim.git ~/.config/nvim\
+cd ~/.config/nvim\
+bash scripts/install.sh
+: 1605003423:0;vim
+: 1605004037:0;vim main.cpp
+: 1605004065:0;rm -rf startuptime.txt
+: 1605004067:0;vim --startuptime ~/startuptime.txt
+: 1605004072:0;vim startuptime.txt
+: 1605004096:0;vim
+: 1605004159:0;vim .config/nvim/init.vim
+: 1605004291:0;vim
+: 1605004320:0;vim main.cpp
+: 1605004342:0;vim
+: 1605004560:0;vim test.lua
+: 1605004663:0;vim
+: 1605004729:0;j nvim
+: 1605004730:0;ls
+: 1605004732:0;vim
+: 1605004911:0;fgit clone https://github.com/glepnir/nvim.git
+: 1605004920:0;cd nvim
+: 1605004921:0;ls
+: 1605004940:0;mv neovim.cat ~/.config/nvim/neovim.cat
+: 1605004952:0;rm -rf ~/.config/nvim/dashboard.cat
+: 1605004968:0;rm -rf ~/.config/nvim/neovim.cat ~/.config/nvim/dashboard.cat
+: 1605004972:0;vim
+: 1605005693:0;rm -rf nvim
+: 1605005694:0;fgit clone https://github.com/glepnir/nvim.git
+: 1605005700:0;hp
+: 1605005701:0;fgit clone https://github.com/glepnir/nvim.git
+: 1605005709:0;cd nvim
+: 1605005740:0;mv neovim.cat ~/.config/nvim/dashboard.cat
+: 1605005745:0;cd
+: 1605005747:0;vim
+: 1605005778:0;c
+: 1605005779:0;vim
+: 1605005790:0;vim main.cpp
+: 1605005796:0;vim
+: 1605006263:0;j nvim
+: 1605006264:0;lg
+: 1605006348:0;c
+: 1605006350:0;vim
+: 1605007616:0;rm -rf startuptime.txt
+: 1605007619:0;vim --startuptime ~/startuptime.txt
+: 1605007621:0;vim startuptime.txt
+: 1605007632:0;vim
+: 1605007635:0;rm -rf startuptime.txt
+: 1605007637:0;vim --startuptime ~/startuptime.txt
+: 1605007639:0;vim startuptime.txt
+: 1605007831:0;vim
+: 1605007918:0;hp
+: 1605007920:0;vim
+: 1605007932:0;vim main.cpp
+: 1605007996:0;vim
+: 1605008304:0;vim main.cpp
+: 1605008311:0;vim
+: 1605008382:0;c
+: 1605008383:0;vim
+: 1605008415:0;rm -rf startuptime.txt
+: 1605008416:0;vim --startuptime ~/startuptime.txt
+: 1605008418:0;vim startuptime.txt
+: 1605008424:0;c
+: 1605008426:0;vim
+: 1605008848:0;j nvim
+: 1605008853:0;cd theme
+: 1605008854:0;ls
+: 1605008856:0;vim theme.vim
+: 1605008886:0;vim
+: 1605008891:0;vim main.cpp
+: 1605008895:0;vim
+: 1605009059:0;vim main.cpp
+: 1605009068:0;vm
+: 1605009070:0;vim
+: 1605010827:0;vim main.cpp
+: 1605010835:0;vim
+: 1605010935:0;sudo pacman -Sy nvin-lsp
+: 1605010942:0;sudo pacman -Sy nvim-lsp
+: 1605010993:0;vim
+: 1605011008:0;rm -rf main.cpp
+: 1605011010:0;vim main.cpp
+: 1605011021:0;vim
+: 1605011473:0;su
+: 1605011496:0;c
+: 1605011496:0;vim
+: 1605011571:0;j nvim
+: 1605011571:0;ra
+: 1605011792:0;vim
+: 1605011800:0;j nvim
+: 1605011801:0;ls
+: 1605011810:0;vim
+: 1605011816:0;cd plug
+: 1605011816:0;ls
+: 1605011819:0;vim plug_list.vim
+: 1605011907:0;luarocks install --server=http://luarocks.org/dev lua-lsp
+: 1605011957:0;/usr/lib/luarocks/rocks-5.3/ install --server=http://luarocks.org/dev lua-lsp
+: 1605011959:0;sudo /usr/lib/luarocks/rocks-5.3/ install --server=http://luarocks.org/dev lua-lsp
+: 1605011967:0;luarocks install --server=http://luarocks.org/dev lua-lsp
+: 1605011968:0;sudo luarocks install --server=http://luarocks.org/dev lua-lsp
+: 1605011987:0;su
+: 1605012096:0;sudo pacman -Rsun lua
+: 1605012101:0;sudo pacman -Rsunc lua
+: 1605012137:0;lua53
+: 1605012145:0;sudo pacman -Sy lua3
+: 1605012148:0;sudo pacman -Sy lua53
+: 1605012197:0;c
+: 1605012198:0;su
+: 1605012276:0;cd
+: 1605012276:0;su
+: 1605014318:0;vim
+: 1605014323:0;vim main.cpp
+: 1605014488:0;vim
+: 1605014490:0;vim main.cpp
+: 1605015670:0;VIM
+: 1605015676:0;vim
+: 1605015871:0;c
+: 1605015871:0;vim
+: 1605016374:0;c
+: 1605016376:0;vim
+: 1605016382:0;c
+: 1605016383:0;vim
+: 1605017677:0;vim main.cpp
+: 1605017804:0;vim
+: 1605017878:0;vim main.cpp
+: 1605018198:0;vi main.cpp
+: 1605018206:0;vim
+: 1605018309:0;vim main.cpp
+: 1605018326:0;emacs main.cpp
+: 1605018343:0;vim main1.cpp
+: 1605018412:0;vim
+: 1605018467:0;vim main1.cpp
+: 1605018535:0;vim
+: 1605018618:0;vim main1.cpp
+: 1605091914:0;vim
+: 1605091962:0;c
+: 1605092010:0;vim
+: 1605092197:0;hp
+: 1605092205:0;vim
+: 1605092261:0;vim main1.cpp
+: 1605092281:0;vim
+: 1605092469:0;c
+: 1605092470:0;vim
+: 1605092473:0;vim theme.vim
+: 1605092476:0;vim test.lua
+: 1605092538:0;vim
+: 1605092543:0;time zsh -i -c exit
+: 1605092548:0;time tree /
+: 1605092624:0;lua
+: 1605092860:0;vim test.lua
+: 1605092871:0;hp
+: 1605092873:0;vim test.lua
+: 1605092965:0;lua-lsp
+: 1605093004:0;c
+: 1605093017:0;luac5.3
+: 1605093024:0;lua5.3
+: 1605093048:0;sudo pacman -R lua5.4
+: 1605093051:0;sudo pacman -R lua
+: 1605093058:0;sudo pacman -Rsunc lua
+: 1605093114:0;luarocks
+: 1605093118:0;cim
+: 1605093119:0;vim
+: 1605093127:0;luarocks
+: 1605093142:0;sudo pacman -Sy lua
+: 1605093168:0;history
+: 1605093190:0;sudo pacman -Syyu
+: 1605093215:0;sudo pacman -Sy rime-luna-pinyin
+: 1605093262:0;sudo pacman -Sy ibus-rime
+: 1605094012:0;vim
+: 1605095675:0;sudo pacman -Sy atom
+: 1605096917:0;atom main.cpp
+: 1605098495:0;c
+: 1605098497:0;apm
+: 1605098500:0;c
+: 1605098524:0;apm config set registry http://registry.npm.taobao.org
+: 1605099121:0;atom main.cpp
+: 1605099169:0;c
+: 1605099171:0;vi 
+: 1605099314:0;vim
+: 1605099373:0;vim main1.cpp
+: 1605099406:0;vim
+: 1605099416:0;c
+: 1605099419:0;hp
+: 1605099420:0;vim
+: 1605099438:0;vim main1.cpp
+: 1605099509:0;vim
+: 1605099517:0;rm -rf startuptime.txt
+: 1605099518:0;vim --startuptime ~/startuptime.txt
+: 1605099520:0;vim startuptime.txt
+: 1605099674:0;vim
+: 1605099790:0;vim main1.cpp
+: 1605100314:0;c
+: 1605100317:0;cpp
+: 1605100321:0;ccls
+: 1605293944:0;ra
+: 1605265169:0;emacs
+: 1605265262:0;vim
+: 1605266970:0;whereis git
+: 1605266983:0;ln -sf /usr/bin/fgit /usr/bin/git
+: 1605266986:0;sudo ln -sf /usr/bin/fgit /usr/bin/git
+: 1605295889:0;ls
+: 1605295911:0;sudo rm -rf /usr/bin/git
+: 1605295914:0;git
+: 1605295921:0;sudo pacman -Sy git
+: 1605295926:0;git
+: 1605299086:0;sudo pacman -Rsn git
+: 1605270325:0;sudo pacman -Sy shadowsocks
+: 1605270337:0;sudo pacman -Sy shadowsocks-qt5
+: 1605270861:0;rm -rf /usr/bin/git
+: 1605270863:0;sudo rm -rf /usr/bin/git]
+: 1605270868:0;sudo rm -rf /usr/bin/git
+: 1605270871:0;git
+: 1605270877:0;sudo ln -sf /usr/bin/fgit /usr/bin/git
+: 1605270900:0;rm -rf /usr/bin/git
+: 1605270902:0;sudo rm -rf /usr/bin/git
+: 1605270910:0;sudo pacman -Sy git
+: 1605271088:0;vim .zshrc
+: 1605271106:0;hp
+: 1605271110:0;curl www.google.com
+: 1605271186:0;hp
+: 1605271314:0;curl www.google.com
+: 1605271333:0;c
+: 1605271336:0;curl www.google.com
+: 1605271340:0;ho
+: 1605271342:0;hp
+: 1605271343:0;curl www.google.com
+: 1605271358:0;vim .zshrc
+: 1605271493:0;hp
+: 1605271494:0;curl www.google.com
+: 1605271513:0;ping 89.163.224.142
+: 1605271537:0;ping 173.0.55.66
+: 1605271544:0;ping 51.159.52.5
+: 1605271550:0;ping 45.90.57.171
+: 1605271629:0;hp
+: 1605271630:0;curl www.google.com
+: 1605271664:0;hp
+: 1605271666:0;curl www.google.com
+: 1605271712:0;hp
+: 1605271713:0;curl www.google.com
+: 1605271770:0;hp
+: 1605271771:0;curl www.google.com
+: 1605271806:0;hp
+: 1605271809:0;git clone --depth 1 https://github.com/hlissner/doom-emacs ~/.emacs.d\
+~/.emacs.d/bin/doom install
+: 1605272303:0;hp
+: 1605272305:0;curl www.google.com
+: 1605272399:0;rm -rf .emacs.d
+: 1605272402:0;rm -rf .doom.d
+: 1605272404:0;emacs
+: 1605272412:0;git clone --depth 1 https://github.com/hlissner/doom-emacs ~/.emacs.d\
+~/.emacs.d/bin/doom install
+: 1605275069:0;~/.emacs.d/bin/doom install
+: 1605275444:0;~/.emacs.d/bin/doom refresh
+: 1605275450:0;~/.emacs.d/bin/doom sync
+: 1605275475:0;emacs
+: 1605275491:0;~/.emacs.d/bin/doom
+: 1605275514:0;~/.emacs.d/bin/doom doctor
+: 1605275591:0;~/.emacs.d/bin/doom build
+: 1605275628:0;rm -rf .emacs.d
+: 1605275633:0;rm -rf .doom.d
+: 1605275634:0;c
+: 1605275635:0;emacs
+: 1605275641:0;git clone --depth 1 https://github.com/hlissner/doom-emacs ~/.emacs.d\
+~/.emacs.d/bin/doom install
+: 1605276200:0;~/.emacs.d/bin/doom install
+: 1605402707:0;~/.emacs.d/bin/doom sync
+: 1605402819:0;emacs 
+: 1605402892:0;~/.emacs.d/bin/doom sync
+: 1605403493:0;emacs main.cpp
+: 1605404005:0;vim
+: 1605404422:0;vim main1.cpp
+: 1605404426:0;vim
+: 1605404468:0;sudo pacman -Sy lua51
+: 1605404473:0;vim
