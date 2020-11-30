@@ -39,8 +39,8 @@ import qualified XMonad.StackSet as W
 import qualified Data.Map as M
 import qualified Data.ByteString as B
 import Control.Monad (liftM2)
-import qualified DBus as D
-import qualified DBus.Client as D
+--import qualified DBus as D
+--import qualified DBus.Client as D
 
 myStartupHook = do
     setWMName "Xmonad"
@@ -237,10 +237,10 @@ myKeys conf@(XConfig {XMonad.modMask = modMask}) = M.fromList $
 main :: IO ()
 main = do
 
-    dbus <- D.connectSession
+    --dbus <- D.connectSession
     -- Request access to the DBus name
-    D.requestName dbus (D.busName_ "org.xmonad.Log")
-        [D.nameAllowReplacement, D.nameReplaceExisting, D.nameDoNotQueue]
+    --D.requestName dbus (D.busName_ "org.xmonad.Log")
+    --    [D.nameAllowReplacement, D.nameReplaceExisting, D.nameDoNotQueue]
 
 
     xmonad . ewmh $
