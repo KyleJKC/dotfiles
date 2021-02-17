@@ -1,15 +1,18 @@
 __build_info:
-  rime_version: 1.6.1
+  rime_version: 1.7.2
   timestamps:
-    default: 1599578333
-    default.custom: 1585496119
-    key_bindings: 1599578333
+    default: 1612771620
+    default.custom: 1612943143
+    grammar: 0
+    key_bindings: 1612771620
     key_bindings.custom: 0
-    luna_pinyin.custom: 1592654100
-    luna_pinyin.schema: 1592654183
-    punctuation: 1599578333
+    luna_pinyin.custom: 1612943143
+    luna_pinyin.schema: 1612176022
+    pinyin: 1612176022
+    pinyin.custom: 0
+    punctuation: 1612771620
     punctuation.custom: 0
-    symbols: 1599578333
+    symbols: 1612771620
     symbols.custom: 0
 custom_phrase:
   db_class: stabledb
@@ -22,7 +25,6 @@ engine:
   filters:
     - simplifier
     - uniquifier
-    - "charset_filter@gbk"
   processors:
     - ascii_composer
     - recognizer
@@ -43,16 +45,6 @@ engine:
     - "table_translator@custom_phrase"
     - reverse_lookup_translator
     - script_translator
-    - "table_translator@english"
-    - "script_translator@super_rime_01"
-    - "script_translator@super_rime_02"
-    - "script_translator@super_rime_03"
-english:
-  dictionary: easy_en
-  enable_completion: true
-  enable_sentence: false
-  initial_quality: "-2"
-  spelling_hints: 9
 key_binder:
   bindings:
     - {accept: "Control+p", send: Up, when: composing}
@@ -215,7 +207,7 @@ punctuator:
     "/W": ["Ẃ", "Ẁ", "Ŵ", "Ẇ", "Ẅ", "W̊", "ᴡ", "ᵂ", "Ẉ", "Ƿ", "Ⱳ"]
     "/X": ["Ẋ", "Ẍ"]
     "/Y": ["Ȳ", "Ý", "Ỳ", "Ŷ", "Ẏ", "Ÿ", "Ỹ", "ʏ", "Ɏ", "Ỷ", "Ỵ", "Ƴ", "Ỿ"]
-    "/Z": ["Ź", "Ž", "Ẑ", "Ż", "ᴢ", "Ƶ", "Ẕ", "Ẓ", "Ȥ", "Ⱬ     Ʒ", "ᴣ", "Ǯ", "Ƹ", "Ɀ", "Ꝣ"]
+    "/Z": ["Ź", "Ž", "Ẑ", "Ż", "ᴢ", "Ƶ", "Ẕ", "Ẓ", "Ȥ", "Ⱬ", "Ʒ", "ᴣ", "Ǯ", "Ƹ", "Ɀ", "Ꝣ"]
     "/a": ["ā", "á", "ǎ", "à", "ȁ", "â", "ă", "ȃ", "ȧ", "ä", "å", "ã", "ₐ", "ᵃ", "ª", "ⱥ", "ꬰ", "ả", "ą", "ạ", "ḁ", "ẚ", "ấ", "ầ", "ẫ", "ẩ", "ắ", "ằ", "ẵ", "ẳ", "ǡ", "ǟ", "ǻ", "ậ", "ặ", "ᶏ", "ɐ", "ᵄ", "ɑ", "ᵅ", "ᶐ", "ɒ", "ᶛ"]
     "/aa": ["ꜳ"]
     "/ae": ["æ", "ǣ", "ǽ", "ᵆ", "ᴂ"]
@@ -233,7 +225,7 @@ punctuator:
     "/c": ["ç", "ć", "č", "ĉ", "ċ", "ᶜ", "ȼ", "ꞓ", "ƈ", "ḉ", "ꞔ", "ɕ", "ᶝ", "ꜿ"]
     "/d": ["ď", "ḋ", "ᵈ", "đ", "ƌ", "ᵭ", "ḑ", "ḓ", "ḏ", "ḍ", "ɖ", "ɗ", "ᶑ", "ᶁ", "ð", "ᶞ", "ꝱ", "ʤ", "ʣ", "ʥ", "ȡ", "ƍ", "ǳ", "ǆ", "ẟ"]
     "/db": ["ȸ"]
-    "/dn": ["", "❖", "⌘", "⌃", "⌥", "⎇", "⇧", "⇪", "␣", "⇥", "⇤", "↩", "⌅", "⌤", "⌫", "⌦", "⌧", "⎋", "⌨", "◁", "⌀", "⌖", "⌗", "⏏", "↖", "↘", "⇞", "⇟", "⌚", "⏰", "⏱", "⏲", "⏳", "⌛", "⌜", "⌝⌞⌟", "⍑", "⏩", "⏪", "⏫", "⏬", "⏭", "⏮", "⏯"]
+    "/dn": ["❖", "⌘", "⌃", "⌥", "⎇", "⇧", "⇪", "␣", "⇥", "⇤", "↩", "⌅", "⌤", "⌫", "⌦", "⌧", "⎋", "⌨", "◁", "⌀", "⌖", "⌗", "⏏", "↖", "↘", "⇞", "⇟", "⌚", "⏰", "⏱", "⏲", "⏳", "⌛", "⌜", "⌝⌞⌟", "⍑", "⏩", "⏪", "⏫", "⏬", "⏭", "⏮", "⏯"]
     "/dw": ["Å", "℃", "％", "‰", "‱", "°", "℉", "㏃", "㏆", "㎈", "㏄", "㏅", "㎝", "㎠", "㎤", "㏈", "㎗", "㎙", "㎓", "㎬", "㏉", "㏊", "㏋", "㎐", "㏌", "㎄", "㎅", "㎉", "㎏", "㎑", "㏍", "㎘", "㎞", "㏎", "㎢", "㎦", "㎪", "㏏", "㎸", "㎾", "㏀", "㏐", "㏓", "㎧", "㎨", "㎡", "㎥", "㎃", "㏔", "㎆", "㎎", "㎒", "㏕", "㎖", "㎜", "㎟", "㎣", "㏖", "㎫", "㎳", "㎷", "㎹", "㎽", "㎿", "㏁", "㎁", "㎋", "㎚", "㎱", "㎵", "㎻", "㏘", "㎩", "㎀", "㎊", "㏗", "㏙", "㏚", "㎰", "㎴", "㎺", "㎭", "㎮", "㎯", "㏛", "㏜", "㎔", "㏝", "㎂", "㎌", "㎍", "㎕", "㎛", "㎲", "㎶", "㎼"]
     "/dz": ["子", "丑", "寅", "卯", "辰", "巳", "午", "未", "申", "酉", "戌", "亥"]
     "/e": ["ē", "é", "ě", "è", "ȅ", "ê", "ĕ", "ȇ", "ė", "ë", "ẽ", "ₑ", "ᵉ", "ɇ", "ꬳ", "ẻ", "ȩ", "ę", "ḙ", "ẹ", "ḛ", "ḗ", "ḕ", "ế", "ề", "ễ", "ể", "ḝ", "ệ", "ᶒ", "ꬴ", "ɘ", "ə", "ɚ", "ᶕ", "ɛ", "ᵋ", "ᶓ", "ɜ", "ᵌ", "ᴈ", "ᶟ", "ɝ", "ᶔ", "ɞ", "ʚ", "ǝ", "ₔ", "ᵊ", "ȝ", "ⱸ"]
@@ -385,10 +377,6 @@ schema:
     - "佛振 <chen.sst@gmail.com>"
   dependencies:
     - stroke
-    - easy_en
-    - super_rime.01
-    - super_rime.02
-    - super_rime.03
   description: |
     Rime 預設的拼音輸入方案。
     參考以下作品而創作：
@@ -399,7 +387,7 @@ schema:
     
   name: "朙月拼音"
   schema_id: luna_pinyin
-  version: 0.24
+  version: 0.26
 speller:
   algebra:
     - "xform/^([b-df-np-z])$/$1_/"
@@ -418,12 +406,6 @@ speller:
     - "derive/([iu])a(o|ng?)$/a$1$2/"
   alphabet: zyxwvutsrqponmlkjihgfedcba
   delimiter: " '"
-super_rime_01:
-  dictionary: super_rime.01
-super_rime_02:
-  dictionary: super_rime.02
-super_rime_03:
-  dictionary: super_rime.03
 switches:
   - name: ascii_mode
     reset: 0
@@ -434,9 +416,6 @@ switches:
     states: ["漢字", "汉字"]
   - name: ascii_punct
     states: ["。，", "．，"]
-  - options: [utf8, gbk, gb2312]
-    reset: 0
-    states: ["UTF-8", GBK, GB2312]
 translator:
   dictionary: luna_pinyin.extended
   preedit_format:

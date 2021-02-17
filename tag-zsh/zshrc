@@ -1,6 +1,6 @@
-# export http_proxy="localhost:1080"
-# export https_proxy="localhost:1080"
-# echo "http_proxy:"$http_proxy "https_proxy:"$https_proxy
+#export http_proxy="localhost:1080"
+#export https_proxy="localhost:1080"
+#echo "http_proxy:"$http_proxy "https_proxy:"$https_proxy
 module_path+=( "/home/kyle/.zinit/bin/zmodules/Src" )
 zmodload zdharma/zplugin
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
@@ -113,8 +113,12 @@ alias lg='lazygit'
 alias pacupdate='~/.local/bin/pacupdate'
 alias clean='sudo pacman -R $(pacman -Qdtq)'
 
+
 # 在启动时pfetch
 # pfetch
 
 # Powerlevel10k设置
+#[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
