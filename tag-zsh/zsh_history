@@ -12039,3 +12039,5 @@ bash scripts/install.sh
 : 1605404426:0;vim
 : 1605404468:0;sudo pacman -Sy lua51
 : 1605404473:0;vim
+: 1613626389:0;vim .zshrc
+: 1613626421:0;c
