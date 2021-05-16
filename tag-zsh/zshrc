@@ -1,5 +1,5 @@
-#export http_proxy="localhost:1080"
-#export https_proxy="localhost:1080"
+# export http_proxy="localhost:8889"
+# export https_proxy="localhost:8889"
 #echo "http_proxy:"$http_proxy "https_proxy:"$https_proxy
 module_path+=( "/home/kyle/.zinit/bin/zmodules/Src" )
 zmodload zdharma/zplugin
@@ -24,6 +24,7 @@ autoload -Uz _zinit
 (( ${+_comps} )) && _comps[zinit]=_zinit
 
 # 设置Powerlevel10k
+zinit ice depth=1;
 zinit light romkatv/powerlevel10k
 
 # 快速目录跳转
@@ -97,8 +98,8 @@ alias s='neofetch | lolcat -F 0.3'
 alias pip3sp="sudo -H pip3 --proxy localhost:1081"
 alias pip3p="pip3 --proxy localhost:1081"
 alias aptp="sudo apt -c ~/.apt.conf"
-alias hp='export http_proxy="localhost:1080"
-export https_proxy="localhost:1080"
+alias hp='export http_proxy="localhost:8889"
+export https_proxy="localhost:8889"
 echo "http_proxy:"$http_proxy "https_proxy:"$https_proxy'
 alias jlog='journalctl -f -o short -u'
 alias h='history -ir -10'

@@ -44,10 +44,10 @@ import Control.Monad (liftM2)
 
 myStartupHook = do
     setWMName "Xmonad"
-    spawnOnce "~/.xmonad/scripts/autochange-wp.sh &"
-    -- spawnOnce "feh --bg-fill ~/Pictures/桌面图片/Lake.jpg"
+    -- spawnOnce "~/.xmonad/scripts/autochange-wp.sh &"
+    spawnOnce "feh --bg-fill ~/Downloads/macos-big-sur-vector-wave-wallpaper-mrmad.jpg"
     spawnOnce "picom &"
-    spawnOnce "fcitx &"
+    -- spawnOnce "fcitx &"
     spawnOnce "~/.config/polybar/launch.sh &"
 
 -- colours
